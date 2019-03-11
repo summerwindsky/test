@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <THDX nameCN="谈话对象" value="" oValue="">
+                <XM nameCN="姓名" row="1" col="3" value="" oValue="" />
+                <DWZW nameCN="单位职务" row="1" col="5" value="" oValue="" />
+                <XB nameCN="性别" row="2" col="3" value="" oValue="" />
+                <SFZH nameCN="身份证号" row="2" col="5" value="" oValue="" />
+            </THDX>
+            <THSJ nameCN="谈话时间" row="3" col="2" value="" oValue="" />
+            <DDSJ nameCN="到达时间" row="3" col="4" value="" oValue="" />
+            <LKSJ nameCN="离开时间" row="4" col="4" value="" oValue="" />
+            <THDD nameCN="谈话地点" row="5" col="2" value="" oValue="" />
+            <PSRY nameCN="陪送人员" value="" oValue="">
+                <XM nameCN="姓名" row="6" col="3" value="" oValue="" />
+                <DWZW nameCN="单位职务" row="6" col="5" value="" oValue="" />
+                <XB nameCN="性别" row="7" col="3" value="" oValue="" />
+                <SFZH nameCN="身份证号" row="7" col="5" value="" oValue="" />
+            </PSRY>
+            <PSXX nameCN="陪送信息" row="8" col="1" value="" oValue="" />
+            <GZRYQM nameCN="工作人员签名" row="9" col="2" value="" oValue="" />
+            <BZ nameCN="备注" row="10" col="2" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

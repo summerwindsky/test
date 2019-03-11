@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="抢夺罪">
+  <node name="刑事认定">
+    <node name="基本构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+        </node>
+        <node name="客观行为">
+          <ys name="抢夺行为" code="0100190101"/>
+          <ys name="多次抢夺" code="0100190102"/>
+        </node>
+        <node name="行为对象">
+          <ys name="公私财物" code="0100190401"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="情节">
+            <node name="情节严重">
+              <ys name="其他严重情节" code="0100190751">
+                <ys name="致人重伤" code="0100190752">
+                  <node name="或"/>
+                </ys>
+                <ys name="致人自杀" code="0100190753"/>
+              </ys>
+              <ys name="其他特别严重情节" code="0100190754">
+                <ys name="致人死亡" code="0100190755"/>
+              </ys>
+              <node name="或"/>
+            </node>
+            <node name="“数额较大”的标准按照前条规定标准的百分之五十确定">
+              <ys name="因抢劫、抢夺或者聚众哄抢受过刑事处罚" code="0100190756">
+                <node name="或"/>
+              </ys>
+              <ys name="一年内因抢夺或者哄抢受过行政处罚" code="0100190757"/>
+              <ys name="一年内抢夺三次以上" code="0100190758"/>
+              <ys name="驾驶车辆抢夺" code="0100190759"/>
+              <ys name="组织、控制未成年人抢夺" code="0100190760"/>
+              <ys name="抢夺弱势群体财物" code="0100190761"/>
+              <ys name="在医院抢夺病人或其亲友财物" code="0100190762"/>
+              <ys name="抢夺特定款物" code="0100190763"/>
+              <ys name="突发事件期间在发生地抢夺" code="0100190764"/>
+              <ys name="致人轻伤或精神失常等严重后果" code="0100190765"/>
+            </node>
+          </node>
+          <node name="数额">
+            <ys name="数额较大" code="0100190601">
+              <node name="或"/>
+            </ys>
+            <ys name="数额巨大" code="0100190602"/>
+            <ys name="数额特别巨大" code="0100190603"/>
+          </node>
+          <node name="数量"/>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以非法占有为目的" code="0100191051"/>
+        </node>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄"/>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="抢夺罪-共犯" code="0100191201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="已满十六周岁不满十八周岁抢夺转化抢劫情节轻微" code="0100191301"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="驾驶车辆抢夺" code="0100190759"/>
+        <ys name="抢夺用于抢险救援和灾后重建的物资、设备、设施" code="0100191601"/>
+      </node>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑">
+      <ys name="抢夺数额较大，未致人轻伤以上伤害，系初犯，认罪、悔罪，退赃、退赔，且具有法定从宽处罚情节" code="0100191901">
+        <node name="或"/>
+      </ys>
+      <ys name="抢夺数额较大，未致人轻伤以上伤害，系初犯，认罪、悔罪，退赃、退赔，没有参与分赃或者获赃较少，且不是主犯" code="0100191902"/>
+      <ys name="抢夺数额较大，未致人轻伤以上伤害，系初犯，认罪、悔罪，退赃、退赔，且被害人谅解" code="0100191903"/>
+      <ys name="抢夺数额较大，未致人轻伤以上伤害，系初犯，认罪、悔罪，退赃、退赔，其他情节轻微、危害不大" code="0100191904"/>
+    </node>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:motan="http://api.weibo.com/schema/motan"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                   http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                   http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+    <!--开启mvc注解-->
+    <mvc:annotation-driven/>
+
+    <!--自动扫描包-->
+    <context:component-scan base-package="com"/>
+
+    <!--spring配置来源，控制类-->
+    <bean id="propertyConfigurer" class="com.thunisoft.util.autoconfig.ExternalPropertyPlaceholderConfigurer">
+        <!--<property name="nullValue" value="[null]" />-->
+        <property name="appName" value="$app.name"/>
+        <property name="appVersion" value="$app.version"/>
+        <property name="locations">
+            <list>
+                <value>classpath*:appConfig.properties</value>
+                <value>classpath*:appConfig-1.properties</value>
+                <value>classpath*:motan.properties</value>
+            </list>
+        </property>
+        <property name="propertyOverride" value="true" />
+    </bean>
+
+    <!--自定义配置来源，控制类-->
+    <bean id="propertiesLoadControler" class="work.test.PropertiesLoadController">
+        <property name="propertyOverride" value="false" />
+        <property name="locations">
+            <list>
+                <value>classpath*:appConfig.properties</value>
+                <value>classpath*:appConfig-1.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--motan-->
+    <motan:referer id="remoteService" interface="motan.FooService" directUrl="${port}"/>
+</beans>

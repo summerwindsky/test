@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <BDCR nameCN="被调查人" row="" col="" value="" oValue="" />
+            <XB nameCN="性别" row="" col="" value="" oValue="" />
+            <NL nameCN="年龄" row="" col="" value="" oValue="" />
+            <DH nameCN="代号" row="" col="" value="" oValue="" />
+            <JYQX nameCN="羁押期限" row="" col="" value="" oValue="" />
+            <BARYXM nameCN="办案人员姓名" row="" col="" value="" oValue="" />
+            <QD nameCN="清单列表" start="" size="" >
+                <SJ nameCN="提讯（谈话）、提解时间" row="" col="" value="" oValue="" />
+                <SY nameCN="事由" row="" col="" value="" oValue="" />
+                <CBRQZ nameCN="案件承办人签字" row="" col="" value="" oValue="" />
+                <SJSJ nameCN="收监或回所时间" row="" col="" value="" oValue="" />
+                <KSYQM nameCN="看守员签名" row="" col="" value="" oValue="" />
+            </QD>
+            <BZ nameCN="备注" row="" col="" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

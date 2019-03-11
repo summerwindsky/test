@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:motan="http://api.weibo.com/schema/motan"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+       http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+
+
+	<motan:protocol name="motan" haStrategy="failover" loadbalance="roundrobin" maxContentLength="20000000" threads="2000" iothreads="1000" minWorkerThread="1000" maxWorkerThread="2000" workerQueueSize="1000" minClientConnection="400"  maxClientConnection="600"/>
+
+	 <motan:registry id="registry" regProtocol="${motan.reg.protocol}"
+		name="directRegistry" port="${motan.port}" address="${motan.addr}"  /> 
+
+	<motan:basicReferer requestTimeout="2000000"
+		accessLog="false" retries="0" group="${motan.group}" module="${motan.module}" application="${motan.app}"
+		protocol="motan" registry="registry" id="basicReferer" throwException="false"
+		check="false" usegz="true" />
+
+
+	<motan:referer id="dealAh"
+		interface="motan.FooService" basicReferer="basicReferer" />
+
+	
+		
+</beans>

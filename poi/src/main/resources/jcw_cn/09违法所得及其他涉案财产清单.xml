@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <QD nameCN="清单列表" start="" size="" >
+                <BH nameCN="编号" row="" col="" value="" oValue="" />
+                <MC nameCN="名称" row="" col="" value="" oValue="" />
+                <SL nameCN="数量" row="" col="" value="" oValue="" />
+                <TZ nameCN="特征" row="" col="" value="" oValue="" />
+                <LY nameCN="来源或权属人" row="" col="" value="" oValue="" />
+                <BZ nameCN="备注" row="" col="" value="" oValue="" />
+            </QD>
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

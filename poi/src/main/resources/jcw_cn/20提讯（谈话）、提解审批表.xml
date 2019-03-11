@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XM nameCN="姓名" row="" col="" value="" oValue="" />
+            <XB nameCN="性别" row="" col="" value="" oValue="" />
+            <SJ nameCN="提讯（谈话）、提解时间" row="" col="" value="" oValue="" />
+            <DD nameCN="地点" row="" col="" value="" oValue="" />
+            <SY nameCN="事由" row="" col="" value="" oValue="" />
+            <CBRQZ nameCN="案件承办人签字" row="" col="" value="" oValue="" />
+            <CBSZRSP nameCN="承办室主任审批" row="" col="" value="" oValue="" />
+            <BZ nameCN="备注" row="" col="" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

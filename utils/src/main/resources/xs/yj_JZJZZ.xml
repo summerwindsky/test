@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="伪造、变造、买卖国家机关公文、证件、印章罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+        </node>
+        <node name="客观行为">
+          <ys name="伪造" code="0100020101">
+            <node name="或"/>
+          </ys>
+          <ys name="变造" code="0100020102"/>
+          <ys name="买卖" code="0100020103"/>
+        </node>
+        <node name="行为对象">
+          <node name="一般行为对象">
+            <ys name="国家机关的公文" code="0100020401">
+              <node name="或"/>
+            </ys>
+            <ys name="国家机关的证件" code="0100020402"/>
+            <ys name="国家机关的印章" code="0100020403"/>
+            <node name="或"/>
+          </node>
+          <node name="特殊行为对象">
+            <ys name="机动车行驶证、机动车登记证书" code="0100020404">
+              <node name="或"/>
+            </ys>
+            <ys name="海关签发的报关单、进口证明、外汇管理部门核准件" code="0100020406"/>
+            <ys name="各级人民政府设立的行使行政管理权的临时性机构的公文、证件、印章" code="0100020407"/>
+            <ys name="国家机关批准的林业证件" code="0100020408"/>
+            <ys name="野生动物资源相关证书" code="0100020409"/>
+            <ys name="船舶检验证书、船舶登记证书、船员适任证书或者其他适任证件" code="0100020410"/>
+            <ys name="技术进出口许可证或合同登记证" code="0100020411"/>
+            <ys name="生物两用品及相关设备和技术出口许可证件" code="0100020412"/>
+            <ys name="导弹相关物项和技术出口许可证件" code="0100020413"/>
+            <ys name="网络文化经营许可证" code="0100020414"/>
+            <ys name="剧毒化学品购买有关证件" code="0100020415"/>
+            <ys name="货物进出口配额证明、批准文件、许可证或者自动进口许可证明" code="0100020416"/>
+            <ys name="农药登记、生产相关证件或证号" code="0100020417"/>
+            <ys name="军品出口项目批准文件、合同批准文件、许可证和接受国的有效证明文件等单证" code="0100020418"/>
+            <ys name="饲料添加剂、添加剂预混合饲料生产许可证、产品批准文号或者产品登记证" code="0100020419"/>
+            <ys name="出口许可证" code="0100020427"/>
+            <ys name="两用物项和技术进出口许可证" code="0100020420"/>
+            <ys name="进口许可证" code="0100020421"/>
+            <ys name="化学品及相关设备和技术出口许可证件" code="0100020422"/>
+            <ys name="天然橡胶进口配额证" code="0100020423"/>
+            <ys name="自动进口许可证" code="0100020424"/>
+            <ys name="农产品进口关税配额证" code="0100020425"/>
+            <ys name="化肥进口关税配额证明" code="0100020426"/>
+          </node>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="情节">
+            <ys name="情节严重" code="0100020751"/>
+          </node>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节"/>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

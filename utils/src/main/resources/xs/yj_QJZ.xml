@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="抢劫罪">
+  <node name="刑事认定">
+    <node name="基本构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <node name="单位"/>
+        </node>
+        <node name="客观行为">
+          <ys name="以暴力、胁迫或者其他方法抢劫" code="0100150101"/>
+        </node>
+        <node name="行为对象">
+          <ys name="公私财物" code="0100150401"/>
+          <ys name="违禁品、违法所得、犯罪所得及其收益" code="0100150402"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="情节">
+            <ys name="入户抢劫" code="0100150751"/>
+            <ys name="在公共交通工具上抢劫" code="0100150752"/>
+            <ys name="抢劫银行或其他金融机构" code="0100150753"/>
+            <ys name="多次抢劫" code="0100150754"/>
+            <ys name="抢劫数额巨大" code="0100150755"/>
+            <ys name="抢劫致人重伤、死亡" code="0100150756"/>
+            <ys name="冒充军警人员抢劫" code="0100150757"/>
+            <ys name="持枪抢劫" code="0100150758"/>
+            <ys name="抢劫军用物资或救济类物资" code="0100150759"/>
+          </node>
+          <node name="数额"/>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由">
+          <ys name="未成年人使用轻微暴力或威胁，强行索要未成年人随身携带的生活、学习用品或者钱财数量不大，且未造成被害人轻微伤以上或者不敢正常到校学习、生活等危害后果" code="0100150901"/>
+          <ys name="转化抢劫数额未达到“数额较大”，情节较轻，危害不大" code="010010902"/>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以非法占有为目的" code="0100151051"/>
+        </node>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄">
+            <ys name="刑事责任年龄：已满十四周岁不满十六周岁对抢劫罪负责" code="0100151001"/>
+          </node>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正构成要件">
+      <node name="犯罪形态">
+        <ys name="抢劫罪-未遂" code="0100151101"/>
+      </node>
+      <node name="共同犯罪">
+        <ys name="抢劫罪-共犯" code="0100151201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="转化抢劫" code="0100151301"/>
+      <ys name="携带凶器抢夺" code="0100151302"/>
+      <ys name="聚众“打砸抢”，毁坏或抢走公私财物的首要分子" code="0100151303"/>
+      <ys name="为劫取财物预谋杀人" code="0100151304"/>
+      <ys name="抢劫中为制服被害人杀人" code="0100151305"/>
+      <ys name="教唆伙同他人抢劫家人或近亲属财产" code="0100151306"/>
+      <ys name="驾驶车辆抢劫" code="0100151307"/>
+      <ys name="强迫被害人卖血后占有卖血所得" code="0100151308"/>
+      <ys name="冒充人民警察或治安联防队员，以暴力或暴力相威胁没收赌资或罚款" code="0100151309"/>
+      <ys name="以非法占有为目的，采用暴力、胁迫手段迫使他人交出与合理价钱、费用相差悬殊的钱物" code="0100151310"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="利用自身真实军警身份抢劫" code="0100151601"/>
+        <ys name="多次结伙抢劫" code="0100151602"/>
+        <ys name="抢劫弱势群体" code="0100151603"/>
+        <ys name="在抢劫中实施其他暴力犯罪" code="0100151604"/>
+        <ys name="在列车内抢劫" code="0100151605"/>
+        <ys name="在传染病灾害期间聚众“打砸抢”，毁坏或者抢走公私财物的首要分子" code="0100151606"/>
+      </node>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="AZPZMBMapper">
+  <resultMap id="BaseResultMap" type="AZPZMB">
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_pzxxm" jdbcType="VARCHAR" property="cPzxxm" />
+    <result column="c_mrz" jdbcType="VARCHAR" property="cMrz" />
+    <result column="c_azzjxx_id" jdbcType="NUMERIC" property="cAzzjxxId" />
+    <result column="c_bb" jdbcType="VARCHAR" property="cBb" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    c_id, c_pzxxm, c_mrz, c_azzjxx_id, c_bb
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_yw_azpzmb
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_yw_azpzmb
+    where c_id = #{cId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="AZPZMB">
+    insert into t_yw_azpzmb (c_id, c_pzxxm, c_mrz, 
+      c_azzjxx_id, c_bb)
+    values (#{cId,jdbcType=INTEGER}, #{cPzxxm,jdbcType=VARCHAR}, #{cMrz,jdbcType=VARCHAR}, 
+      #{cAzzjxxId,jdbcType=NUMERIC}, #{cBb,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="AZPZMB">
+    insert into t_yw_azpzmb
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cPzxxm != null">
+        c_pzxxm,
+      </if>
+      <if test="cMrz != null">
+        c_mrz,
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id,
+      </if>
+      <if test="cBb != null">
+        c_bb,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="cPzxxm != null">
+        #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        #{cBb,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    <set>
+      <if test="cPzxxm != null">
+        c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        c_mrz = #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        c_bb = #{cBb,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    set c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      c_mrz = #{cMrz,jdbcType=VARCHAR},
+      c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      c_bb = #{cBb,jdbcType=VARCHAR}
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="AZPZMB">
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_pzxxm" jdbcType="VARCHAR" property="cPzxxm" />
+    <result column="c_mrz" jdbcType="VARCHAR" property="cMrz" />
+    <result column="c_azzjxx_id" jdbcType="NUMERIC" property="cAzzjxxId" />
+    <result column="c_bb" jdbcType="VARCHAR" property="cBb" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    c_id, c_pzxxm, c_mrz, c_azzjxx_id, c_bb
+  </sql>
+  <insert id="insertSelective" parameterType="AZPZMB">
+    insert into t_yw_azpzmb
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cPzxxm != null">
+        c_pzxxm,
+      </if>
+      <if test="cMrz != null">
+        c_mrz,
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id,
+      </if>
+      <if test="cBb != null">
+        c_bb,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="cPzxxm != null">
+        #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        #{cBb,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    <set>
+      <if test="cPzxxm != null">
+        c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        c_mrz = #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        c_bb = #{cBb,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="AZPZMB">
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_pzxxm" jdbcType="VARCHAR" property="cPzxxm" />
+    <result column="c_mrz" jdbcType="VARCHAR" property="cMrz" />
+    <result column="c_azzjxx_id" jdbcType="NUMERIC" property="cAzzjxxId" />
+    <result column="c_bb" jdbcType="VARCHAR" property="cBb" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    c_id, c_pzxxm, c_mrz, c_azzjxx_id, c_bb
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_yw_azpzmb
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_yw_azpzmb
+    where c_id = #{cId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="AZPZMB">
+    insert into t_yw_azpzmb (c_id, c_pzxxm, c_mrz, 
+      c_azzjxx_id, c_bb)
+    values (#{cId,jdbcType=INTEGER}, #{cPzxxm,jdbcType=VARCHAR}, #{cMrz,jdbcType=VARCHAR}, 
+      #{cAzzjxxId,jdbcType=NUMERIC}, #{cBb,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="AZPZMB">
+    insert into t_yw_azpzmb
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cPzxxm != null">
+        c_pzxxm,
+      </if>
+      <if test="cMrz != null">
+        c_mrz,
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id,
+      </if>
+      <if test="cBb != null">
+        c_bb,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="cPzxxm != null">
+        #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        #{cBb,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    <set>
+      <if test="cPzxxm != null">
+        c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        c_mrz = #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        c_bb = #{cBb,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    set c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      c_mrz = #{cMrz,jdbcType=VARCHAR},
+      c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      c_bb = #{cBb,jdbcType=VARCHAR}
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <resultMap id="BaseResultMap" type="AZPZMB">
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_pzxxm" jdbcType="VARCHAR" property="cPzxxm" />
+    <result column="c_mrz" jdbcType="VARCHAR" property="cMrz" />
+    <result column="c_azzjxx_id" jdbcType="NUMERIC" property="cAzzjxxId" />
+    <result column="c_bb" jdbcType="VARCHAR" property="cBb" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    c_id, c_pzxxm, c_mrz, c_azzjxx_id, c_bb
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_yw_azpzmb
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from t_yw_azpzmb
+    where c_id = #{cId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="AZPZMB">
+    insert into t_yw_azpzmb (c_id, c_pzxxm, c_mrz, 
+      c_azzjxx_id, c_bb)
+    values (#{cId,jdbcType=INTEGER}, #{cPzxxm,jdbcType=VARCHAR}, #{cMrz,jdbcType=VARCHAR}, 
+      #{cAzzjxxId,jdbcType=NUMERIC}, #{cBb,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="AZPZMB">
+    insert into t_yw_azpzmb
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        c_id,
+      </if>
+      <if test="cPzxxm != null">
+        c_pzxxm,
+      </if>
+      <if test="cMrz != null">
+        c_mrz,
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id,
+      </if>
+      <if test="cBb != null">
+        c_bb,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cId != null">
+        #{cId,jdbcType=INTEGER},
+      </if>
+      <if test="cPzxxm != null">
+        #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        #{cBb,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    <set>
+      <if test="cPzxxm != null">
+        c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      </if>
+      <if test="cMrz != null">
+        c_mrz = #{cMrz,jdbcType=VARCHAR},
+      </if>
+      <if test="cAzzjxxId != null">
+        c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      </if>
+      <if test="cBb != null">
+        c_bb = #{cBb,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="AZPZMB">
+    update t_yw_azpzmb
+    set c_pzxxm = #{cPzxxm,jdbcType=VARCHAR},
+      c_mrz = #{cMrz,jdbcType=VARCHAR},
+      c_azzjxx_id = #{cAzzjxxId,jdbcType=NUMERIC},
+      c_bb = #{cBb,jdbcType=VARCHAR}
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+</mapper>

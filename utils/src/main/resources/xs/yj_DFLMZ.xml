@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="盗伐林木罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="盗伐林木罪-单位" code="0100340001"/>
+        </node>
+        <node name="客观行为">
+          <node name="要素:盗伐森林或其他林木#0100340101"/>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数量">
+            <ys name="数量较大" code="0100340651"/>
+            <ys name="数量巨大" code="0100340652"/>
+            <ys name="数量特别巨大" code="0100340653"/>
+          </node>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以非法占有为目的" code="0100341051"/>
+        </node>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="擅自砍伐国家、集体、他人所有或他人承包经营管理的森林或其他林木" code="0100341301"/>
+      <ys name="擅自砍伐本单位或本人承包经营管理的森林或其他林木" code="0100341302"/>
+      <ys name="在林木采伐许可证规定的地点以外采伐国家、集体、他人所有或他人承包经营管理的森林或其他林木" code="0100341303"/>
+      <ys name="一年内多次盗伐少量林木未经处罚，累计数量构成犯罪" code="0100341304"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重">
+        <ys name="盗伐国家级自然保护区内的森林或其他林木" code="0100341601"/>
+      </node>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻">
+        <ys name="补植复绿" code="0100341701"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

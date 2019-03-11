@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XM nameCN="姓名" row="1" col="2" value="" oValue="" />
+            <XB nameCN="性别" row="1" col="4" value="" oValue="" />
+            <CSNY nameCN="出生年月" row="1" col="6" value="" oValue="" />
+            <RDSJ nameCN="入党时间" row="2" col="2" value="" oValue="" />
+            <CJGZSJ nameCN="参加工作时间" row="2" col="4" value="" oValue="" />
+            <GZDW nameCN="工作单位" row="3" col="2" value="" oValue="" />
+            <XRZW_DN nameCN="现任职务_党内" row="4" col="3" value="" oValue="" />
+            <XRZW_XZ nameCN="现任职务_行政" row="5" col="3" value="" oValue="" />
+            <XRZW_QT nameCN="现任职务_其他" row="6" col="3" value="" oValue="" />
+            <ZJ nameCN="职级" row="4" col="5" value="" oValue="" />
+            <SYCSDW nameCN="使用措施单位" row="7" col="2" value="" oValue="" />
+            <SPQK nameCN="审批情况" row="8" col="2" value="" oValue="" />
+            <SYKSSJ nameCN="延长留置起始时间" row="9" col="2" value="" oValue="" />
+            <SYDD nameCN="使用地点" row="9" col="4" value="" oValue="" />
+            <KHRYQK nameCN="看护人员情况" row="10" col="2" value="" oValue="" />
+            <YCLZCSLY nameCN="延长留置措施理由" row="11" col="2" value="" oValue="" />
+            <BSSP nameCN="报送审批" row="12" col="2" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

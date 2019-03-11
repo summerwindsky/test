@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="合同诈骗罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="合同诈骗罪-单位" code="0100090001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="骗取对方财物" code="0100090101">
+            <node name="或"/>
+          </ys>
+          <node name="骗取对方财物方法">
+            <ys name="以虚假身份签订合同" code="0100090102"/>
+            <ys name="以伪造、变造、作废的票据或其他虚假的产权证明作担保" code="0100090103"/>
+            <ys name="没有实际履行能力，以先履行小额合同或部分履行的方法，诱骗对方继续签订和履行合同" code="0100090104"/>
+            <ys name="收受对方给付的货物与款项后逃匿" code="0100090105"/>
+            <ys name="以其他方法骗取对方财物" code="0100090106"/>
+          </node>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点">
+          <ys name="在签订、履行合同过程中" code="0100090576"/>
+        </node>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数额">
+            <ys name="数额较大" code="0100090601">
+              <node name="或"/>
+            </ys>
+            <ys name="数额巨大" code="0100090602"/>
+            <ys name="数额特别巨大" code="0100090603"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100090751"/>
+            <ys name="其他特别严重情节" code="0100090752"/>
+          </node>
+          <node name="数量"/>
+          <node name="后果"/>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以非法占有为目的" code="0100091051"/>
+        </node>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处"/>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节"/>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

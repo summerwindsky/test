@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="生产、销售假药罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <ys name="生产、销售假药罪-单位" code="0100500001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="生产行为" code="0100500101"/>
+          <ys name="销售行为" code="0100500102"/>
+        </node>
+        <node name="行为对象">
+          <ys name="假药" code="0100500401"/>
+          <ys name="按假药处理的药品或非药品" code="0100500402"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="结果">
+            <ys name="对人体健康造成严重危害" code="0100500701"/>
+            <ys name="致人死亡" code="0100500702"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100500751"/>
+            <ys name="其他特别严重情节" code="0100500752"/>
+          </node>
+        </node>
+        <node name="排除犯罪性事由">
+          <ys name="销售少量民间配方私自加工的药品没有造成他人伤害后果或者延误诊治" code="0100500901"/>
+          <ys name="销售少量未经批准进口的药品没有造成他人伤害后果或者延误诊治" code="0100500902"/>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="生产、销售假药罪-共犯" code="0100501201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="具有药品经营资质的企业通过非法渠道从私人手中购销假药" code="0100501301"/>
+      <ys name="在传染病等灾害期间生产销售应急假药" code="0100501302"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="相对不诉或定罪免刑"/>
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重">
+        <ys name="在传染病等灾害期间生产销售应急假药" code="0100501302"/>
+        <ys name="假药以孕婴童或重病为主要使用对象" code="0100501801"/>
+        <ys name="假药属于麻醉、精神、医疗用毒性、放射性、避孕药品、血液制品、疫苗" code="0100501802"/>
+        <ys name="假药属于注射剂、急救药品" code="0100501803"/>
+        <ys name="医疗机构及其工作人员生产销售假药" code="0100501804"/>
+        <ys name="在突发事件期间生产销售应急假药" code="0100501805"/>
+        <ys name="两年内曾因危害药品安全受过行政处罚或者刑事处罚" code="0100501806"/>
+        <ys name="国家机关工作人员参与生产销售假药" code="0100501807"/>
+      </node>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

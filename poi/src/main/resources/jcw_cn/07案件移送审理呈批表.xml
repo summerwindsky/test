@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <AJMC nameCN="案件名称" row="" col="" value="" oValue="" />
+            <LAJG nameCN="立案机关" row="" col="" value="" oValue="" />
+            <BSCR nameCN="被审查人" row="" col="" value="" oValue="" />
+            <LASJ nameCN="立案时间" row="" col="" value="" oValue="" />
+            <DWZW nameCN="单位及职务" row="" col="" value="" oValue="" />
+            <ZJ nameCN="职级" row="" col="" value="" oValue="" />
+            <SFDDB_HJ nameCN="是否党代表（何级）" row="" col="" value="" oValue="" />
+            <SFRDDB_HJ nameCN="是否人大代表（何级）" row="" col="" value="" oValue="" />
+            <SFZXWY_HJ nameCN="是否政协委员（何级）" row="" col="" value="" oValue="" />
+            <LZQSSJ nameCN="留置起始时间" row="" col="" value="" oValue="" />
+            <LZJCSJ nameCN="留置解除时间" row="" col="" value="" oValue="" />
+            <AQZYJCLYJ nameCN="案情摘要及处理意见" row="" col="" value="" oValue="" />
+            <CBSYJ nameCN="承办室意见" row="" col="" value="" oValue="" />
+            <ZGCWYJ nameCN="主管常委（委员）意见" row="" col="" value="" oValue="" />
+            <ZGFSJYJ nameCN="主管副书记（副主任）意见" row="" col="" value="" oValue="" />
+            <ZYFZRYJ nameCN="主要负责人意见" row="" col="" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="交通肇事罪">
+  <node name="刑事认定">
+    <node name="基本构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <ys name="交通运输人员" code="0100100001"/>
+          <ys name="非交通运输人员" code="0100100002">
+            <ys name="机动车辆所有人" code="0100100003"/>
+            <ys name="机动车辆承包人" code="0100100004"/>
+            <ys name="单位主管人员" code="0100100005"/>
+            <node name="其他非交通运输人员"/>
+          </ys>
+        </node>
+        <node name="客观行为">
+          <ys name="违反交通运输法规" code="0100100101"/>
+          <node name="一般客观行为">
+            <ys name="交通运输肇事后逃逸" code="0100100102"/>
+            <ys name="其他特别恶劣情节" code="0100100103"/>
+            <ys name="因逃逸致人死亡" code="0100100104"/>
+          </node>
+          <node name="特殊客观行为">
+            <ys name="酒驾毒驾" code="0100100105"/>
+            <ys name="无驾驶资格驾驶" code="0100100106"/>
+            <ys name="驾驶明知是安全装置不全或安全机件失灵的机动车辆" code="0100100107"/>
+            <ys name="驾驶明知是无牌证或已报废的机动车辆" code="0100100108"/>
+            <ys name="严重超载" code="0100100109"/>
+            <ys name="为逃避法律追究逃离事故现场" code="0100100110"/>
+          </node>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果">
+          <ys name="致人死亡" code="0100100527"/>
+          <ys name="致人重伤" code="0100100526"/>
+          <ys name="致公私财产遭受重大损失" code="0100100528"/>
+        </node>
+        <node name="因果关系"/>
+        <node name="时间和地点">
+          <ys name="道路" code="0100100578"/>
+        </node>
+        <node name="工具">
+          <ys name="机动车" code="0100100576"/>
+          <ys name="非机动车" code="0100100577"/>
+        </node>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="后果">
+            <ys name="死亡一人或者重伤三人以上，负事故全部或者主要责任" code="0100100701"/>
+            <ys name="死亡三人以上，负事故同等责任" code="0100100702"/>
+            <ys name="造成公共财产或者他人财产直接损失，负事故全部或者主要责任，无能力赔偿数额在三十万元以上" code="0100100703"/>
+            <ys name="特殊客观行为致一人以上重伤，负事故全部或者主要责任" code="0100100704"/>
+          </node>
+          <node name="事故责任">
+            <ys name="负事故全部责任" code="0100100705"/>
+            <ys name="负事故主要责任" code="0100100706"/>
+            <ys name="负事故同等责任" code="0100100707"/>
+          </node>
+          <node name="死亡人数">
+            <ys name="致一人死亡" code="0100100529"/>
+            <ys name="致二人死亡" code="0100100530"/>
+            <ys name="致三人以上六人以下死亡" code="0100100531"/>
+            <ys name="致六人以上死亡" code="0100100532"/>
+          </node>
+          <node name="重伤人数">
+            <ys name="致一人以上三人以下重伤" code="0100100533"/>
+            <ys name="致三人以上五人以下重伤" code="0100100534"/>
+            <ys name="致五人以上重伤" code="0100100535"/>
+          </node>
+          <node name="无能力赔偿数额">
+            <ys name="无能力赔偿数额在30万元至40万元" code="0100100536"/>
+            <ys name="无能力赔偿数额在40万元至50万元" code="0100100537"/>
+            <ys name="无能力赔偿数额在50万元至60万元" code="0100100538"/>
+            <ys name="无能力赔偿数额在60万元以上" code="0100100539"/>
+          </node>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄"/>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="交通肇事罪-共犯" code="0100101201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处"/>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节"/>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

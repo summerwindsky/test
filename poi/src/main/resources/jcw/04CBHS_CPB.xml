@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XSLY nameCN="线索来源" row="1" col="2" value="" oValue="" />
+            <BFYR nameCN="被反映人" value="" oValue="" >
+                <XM nameCN="姓名" row="2" col="2" value="" oValue="" />
+                <XB nameCN="性别" row="2" col="4" value="" oValue="" />
+                <NL nameCN="年龄" row="2" col="6" value="" oValue="" />
+                <MZ nameCN="民族" row="2" col="8" value="" oValue="" />
+                <ZZMM nameCN="政治面貌" row="2" col="10" value="" oValue="" />
+                <DWZW nameCN="单位职务" row="3" col="2" value="" oValue="" />
+            </BFYR>
+            <FYZYWT nameCN="反映的主要问题" row="4" col="2" value="" oValue="" />
+            <CBSYJ nameCN="承办室意见" row="5" col="2" value="" oValue="" />
+            <XGFZRYJ nameCN="相关负责人意见" row="6" col="2" value="" oValue="" />
+            <FJXX nameCN="附件信息" row="7" col="1" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

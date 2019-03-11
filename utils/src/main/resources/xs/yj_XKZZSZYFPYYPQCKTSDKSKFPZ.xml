@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="虚开增值税专用发票、用于骗取出口退税、抵扣税款发票罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <ys name="虚开增值税专用发票、用于骗取出口退税、抵扣税款发票罪-单位" code="0100470001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="虚开" code="0100470101">
+            <ys name="为他人虚开" code="0100470102"/>
+            <ys name="为自己虚开或让他人为自己虚开" code="0100470107">
+              <ys name="为自己虚开" code="0100470103"/>
+              <ys name="让他人为自己虚开" code="0100470104"/>
+            </ys>
+            <ys name="介绍他人虚开" code="0100470105"/>
+            <ys name="未归类的虚开行为" code="0100470106"/>
+          </ys>
+        </node>
+        <node name="行为对象">
+          <ys name="增值税专用发票" code="0100470401"/>
+          <ys name="用于骗取出口退税、抵扣税款的其他发票" code="0100470402"/>
+          <ys name="伪造的增值税专用发票" code="0100470403"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="金额">
+            <ys name="数额较大" code="0100470601"/>
+            <ys name="数额巨大" code="0100470602"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100470751"/>
+            <ys name="其他特别严重情节" code="0100470752"/>
+          </node>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由">
+          <ys name="不明知" code="0100470902"/>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件"/>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="非法购买增值税专用发票又虚开" code="0100471301"/>
+      <ys name="非法购买伪造的增值税专用发票又虚开" code="0100471302"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定加重情节"/>
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重">
+        <ys name="国家税务机关工作人员相互勾结" code="0100471801"/>
+        <ys name="近期受过行政处罚" code="0100471802"/>
+      </node>
+      <node name="酌定从轻">
+        <ys name="尚未抵扣税款" code="0100471701"/>
+        <ys name="退赔已抵扣税款" code="0100471702"/>
+      </node>
+      <node name="其他影响量刑的情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

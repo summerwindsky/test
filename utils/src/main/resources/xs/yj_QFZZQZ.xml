@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="侵犯著作权罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="侵犯著作权罪-单位" code="0100290001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="未经著作权人许可，复制发行他人作品" code="0100290101"/>
+          <ys name="出版他人享有专有出版权的图书" code="0100290102"/>
+          <ys name="未经录音录像制作者许可，复制发行其制作的录音录像制品" code="0100290103"/>
+          <ys name="制作、出售假冒他人署名的美术作品" code="0100290104"/>
+        </node>
+        <node name="行为对象">
+          <ys name="作品" code="0100290401"/>
+          <ys name="他人享有专有出版权的图书" code="0100290402"/>
+          <ys name="录音录像制品" code="0100290403"/>
+          <ys name="假冒他人署名的美术作品" code="0100290404"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="金额">
+            <ys name="数额较大" code="0100290651"/>
+            <ys name="数额巨大" code="0100290652"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100290751"/>
+            <ys name="其他特别严重情节" code="0100290752"/>
+          </node>
+        </node>
+        <node name="排除犯罪事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以营利为目的" code="0100291051"/>
+        </node>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态">
+        <ys name="侵犯著作权罪-未遂" code="0100291101"/>
+      </node>
+      <node name="共同犯罪">
+        <ys name="侵犯著作权罪-共犯" code="0100291201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="犯侵犯著作权罪，又销售该侵权复制品" code="0100291301"/>
+      <ys name="未经录音录像制作者许可，通过信息网络传播其制作的录音录像制品" code="0100291302"/>
+      <ys name="侵权产品的持有人通过广告、征订等方式推销侵权产品" code="0100291303"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑法裁量">
+    <node name="相对不诉或定罪免刑"/>
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

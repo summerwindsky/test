@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="诈骗罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体"/>
+        <node name="客观行为">
+          <ys name="一般诈骗行为" code="0100070101">
+            <node name="或"/>
+          </ys>
+          <node name="特殊诈骗行为">
+            <ys name="电信诈骗" code="0100070102"/>
+          </node>
+        </node>
+        <node name="行为对象">
+          <ys name="公私财物" code="0100070401">
+            <node name="或"/>
+          </ys>
+          <ys name="犯罪所得及其收益" code="0100070402"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数额">
+            <ys name="数额较大" code="0100070601 ">
+              <node name="或"/>
+            </ys>
+            <ys name="数额巨大" code="0100070602"/>
+            <ys name="数额特别巨大" code="0100070603"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100070751">
+              <node name="或"/>
+            </ys>
+            <ys name="其他特别严重情节" code="0100070752"/>
+          </node>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以非法占有为目的" code="0100071051"/>
+        </node>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态">
+        <ys name="诈骗罪-未遂" code="0100071101"/>
+      </node>
+      <node name="共同犯罪">
+        <ys name="诈骗罪-共犯" code="0100071201 "/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="使用伪造、变造、盗窃的武装部队车辆号牌，骗免各种规费" code="0100071301 "/>
+      <ys name="骗取增值税专用发票或可用于退抵税款的发票" code="0100071302"/>
+      <ys name="以虚假或冒用身份骗取电信资费" code="0100071303"/>
+      <ys name="欺骗发行彩票的工作人员回收已被识别为不中奖的彩票" code="0100071304"/>
+      <ys name="使用伪造的学生证购买火车票,数额较大" code="0100071305"/>
+      <ys name="以使用为目的伪造停止流通的货币或使用伪造的停止流通的货币" code="0100071306"/>
+      <ys name="假借预防控制疫情名义诈骗" code="0100071605"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑法裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="电信诈骗" code="0100070102">
+          <node name="或"/>
+        </ys>
+        <ys name="诈骗特定款物" code="0100071601 "/>
+        <ys name="以赈灾募捐名义诈骗" code="0100071602"/>
+        <ys name="诈骗残疾人、老年人或丧失劳动能力人" code="0100071603"/>
+        <ys name="造成被害人自杀、精神失常或者其他严重后果" code="0100071604"/>
+        <ys name="假借预防控制疫情名义诈骗" code="0100071605"/>
+      </node>
+      <node name="酌定从轻情节">
+        <ys name="诈骗近亲属" code="0100071501 "/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑">
+      <ys name="诈骗数额较大，行为人认罪悔罪，具有法定从宽处罚情节" code="0100071901">
+        <node name="或"/>
+      </ys>
+      <ys name="诈骗数额较大，行为人认罪悔罪，一审宣判前全部退赃、退赔" code="0100071902"/>
+      <ys name="诈骗数额较大，行为人认罪悔罪，没有参与分赃或者获赃较少且不是主犯" code="0100071903"/>
+      <ys name="诈骗数额较大，行为人认罪悔罪，被害人谅解" code="0100071904"/>
+      <ys name="诈骗数额较大，行为人认罪悔罪，其他情节轻微、危害不大" code="0100071905"/>
+      <ys name="诈骗近亲属财物，获得谅解" code="0100071906"/>
+    </node>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

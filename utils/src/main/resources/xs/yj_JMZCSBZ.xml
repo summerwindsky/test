@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="假冒注册商标罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="假冒注册商标罪-单位" code="0100380001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="未经注册商标所有人许可，在同一种商品上使用与其注册商标相同的商标" code="0100380101"/>
+        </node>
+        <node name="行为对象">
+          <ys name="注册商标" code="0100380401">
+            <ys name="集体商标" code="0100380402"/>
+          </ys>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <ys name="情节严重" code="0100380751"/>
+          <ys name="情节特别严重" code="0100380752"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="假冒注册商标罪-共犯" code="0100381201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="实施假冒注册商标犯罪，又销售该假冒注册商标的商品" code="0100381301"/>
+      <ys name="明知该“食用油”来源可疑而予以销售，并假冒该“食用油”注册商标" code="0100381302"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑法裁量">
+    <node name="相对不诉或定罪免刑"/>
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

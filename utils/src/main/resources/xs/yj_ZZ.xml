@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="刑法">
+  <node name="总则树">
+    <node name="刑事认定">
+      <node name="基本构成要件">
+        <node name="该当性">
+          <node name="主体">
+            <node name="一般自然人主体"/>
+            <node name="特殊自然人主体">
+              <ys name="被告人怀孕" code="0100010001"/>
+              <ys name="被告人正在哺乳" code="0100010002"/>
+              <ys name="被告人患有严重疾病生活不能自理" code="0100010003"/>
+            </node>
+            <node name="单位主体"/>
+          </node>
+          <node name="客观行为">
+            <node name="作为"/>
+            <node name="不作为"/>
+            <node name="持有"/>
+          </node>
+          <node name="行为对象"/>
+          <node name="结果">
+            <node name="结果"/>
+            <node name="危险"/>
+          </node>
+          <node name="因果关系"/>
+          <node name="时间和地点"/>
+          <node name="工具"/>
+        </node>
+        <node name="违法性">
+          <node name="违法性程度">
+            <node name="情节"/>
+            <node name="数额"/>
+            <node name="数量"/>
+            <node name="后果"/>
+          </node>
+          <node name="排除犯罪性事由">
+            <node name="正当防卫">
+              <ys name="正当防卫" code="0100010901">
+                <node name="一般正当防卫"/>
+                <node name="特殊正当防卫"/>
+              </ys>
+            </node>
+            <node name="紧急避险">
+              <ys name="紧急避险" code="0100010902"/>
+            </node>
+            <node name="超法规阻却事由">
+              <ys name="依照法令" code="0100010903"/>
+              <ys name="业务正当" code="0100010904"/>
+              <ys name="被害人承诺行为" code="0100010905"/>
+              <ys name="自助行为" code="0100010906"/>
+            </node>
+            <ys name="情节显著轻微，危害后果不大" code="0100010907"/>
+          </node>
+        </node>
+        <node name="有责性">
+          <node name="主观方面">
+            <ys name="故意" code="0100011051"/>
+            <ys name="过失" code="0100011052"/>
+            <node name="目的和动机"/>
+          </node>
+          <node name="刑事责任能力">
+            <node name="刑事责任年龄">
+              <ys name="刑事责任年龄：不满十四周岁" code="0100011001"/>
+              <ys name="刑事责任年龄：已满十四周岁不满十六周岁" code="0100011002"/>
+              <ys name="刑事责任年龄：已满十六岁" code="0100011003"/>
+              <ys name="刑事责任年龄：已满十六周岁不满十八周岁" code="0100011010"/>
+            </node>
+            <node name="精神状态">
+              <ys name="精神状态：具有刑事责任能力" code="0100011004">
+                <node name="正常自然人犯罪"/>
+                <node name="间歇性精神病人精神正常期间犯罪"/>
+              </ys>
+              <ys name="精神状态：限制刑事责任能力" code="0100011005"/>
+              <ys name="精神状态：无刑事责任能力" code="0100011006"/>
+            </node>
+            <node name="特殊生理">
+              <ys name="又聋又哑的人犯罪" code="0100011007"/>
+              <ys name="盲人犯罪" code="0100011008"/>
+              <ys name="醉酒犯罪" code="0100011009"/>
+            </node>
+          </node>
+          <node name="排除犯罪性事由">
+            <ys name="意外事件" code="0100010908"/>
+            <ys name="不可抗力" code="0100010909"/>
+          </node>
+        </node>
+      </node>
+      <node name="修正构成要件">
+        <node name="犯罪形态">
+          <ys name="犯罪既遂" code="0100011101"/>
+          <ys name="犯罪未遂" code="0100011102"/>
+          <ys name="犯罪中止" code="0100011103"/>
+          <ys name="犯罪预备" code="0100011104"/>
+          <node name="不能犯"/>
+        </node>
+        <node name="共同犯罪">
+          <ys name="共同犯罪" code="0100011201"/>
+          <ys name="主犯" code="0100011202"/>
+          <ys name="从犯" code="0100011203"/>
+          <ys name="胁从犯" code="0100011204"/>
+          <ys name="教唆犯" code="0100011205">
+            <ys name="教唆未成年人" code="0100011206"/>
+          </ys>
+          <ys name="犯罪集团" code="0100011207"/>
+          <ys name="首要分子" code="0100011208"/>
+          <ys name="间接正犯" code="0100011209"/>
+          <node name="承继共犯"/>
+          <node name="片面共犯"/>
+        </node>
+      </node>
+      <node name="从一重处"/>
+      <node name="以本罪论处"/>
+      <node name="不以本罪论处"/>
+    </node>
+    <node name="刑罚裁量">
+      <node name="法定情节">
+        <node name="法定从重">
+          <node name="累犯">
+            <ys name="一般累犯" code="0100011601"/>
+            <ys name="特别累犯" code="0100011602"/>
+          </node>
+          <ys name="教唆未成年人" code="0100011206"/>
+        </node>
+        <node name="法定从轻">
+          <ys name="未成年人犯罪" code="0100011501">
+            <ys name="刑事责任年龄：已满十四周岁不满十六周岁" code="0100011002"/>
+            <ys name="刑事责任年龄：已满十六周岁不满十八周岁" code="0100011010"/>
+          </ys>
+          <ys name="已满七十五周岁的人犯罪" code="0100011502">
+            <node name="已满七十五周岁的人故意犯罪"/>
+            <node name="已满七十五周岁的人过失犯罪"/>
+          </ys>
+          <ys name="盲人犯罪" code="0100011008"/>
+          <node name="自首">
+            <ys name="一般自首" code="0100011503"/>
+            <ys name="特殊自首" code="0100011504"/>
+          </node>
+          <node name="立功">
+            <ys name="一般立功" code="0100011505"/>
+            <ys name="重大立功" code="0100011506"/>
+          </node>
+          <ys name="坦白" code="0100011507"/>
+          <ys name="防卫过当" code="0100011508"/>
+          <ys name="避险过当" code="0100011509"/>
+          <ys name="从犯" code="0100011203"/>
+          <node name="预备犯"/>
+          <node name="未遂犯"/>
+          <node name="中止犯"/>
+          <ys name="胁从犯" code="0100011204"/>
+          <node name="被教唆的人没有犯被教唆的罪,对于教唆犯"/>
+          <ys name="精神状态：限制刑事责任能力" code="0100011005"/>
+          <ys name="与被害方达成和解协议" code="0100011510"/>
+        </node>
+      </node>
+      <node name="酌定情节">
+        <node name="酌定从重">
+          <ys name="被害人是未成年人" code="0100011801"/>
+          <ys name="重大灾害疫情期间犯罪" code="0100011802"/>
+          <ys name="被害人是老年人" code="0100011803"/>
+          <ys name="被害人是残疾人" code="0100011804"/>
+          <ys name="被害人是怀孕的人" code="0100011805"/>
+          <ys name="被害人是丧失劳动能力的人" code="0100011806"/>
+          <ys name="犯罪手段残忍" code="0100011807"/>
+          <ys name="犯罪动机卑劣" code="0100011808"/>
+          <ys name="情节特别严重" code="0100011809"/>
+          <ys name="后果特别严重" code="0100011810"/>
+          <ys name="主观恶性大" code="0100011811"/>
+          <ys name="一贯表现恶劣" code="0100011812"/>
+          <ys name="认罪态度较差" code="0100011813"/>
+          <ys name="有前科" code="0100011814"/>
+          <ys name="惯犯" code="0100011815"/>
+          <ys name="流窜作案" code="0100011816"/>
+          <ys name="多名被害人" code="0100011817"/>
+          <ys name="有劣迹" code="0100011818"/>
+        </node>
+        <node name="酌定从轻">
+          <ys name="主观恶性小" code="0100011701"/>
+          <ys name="事后主动减少犯罪损失" code="0100011702"/>
+          <ys name="激情犯罪、临时起意" code="0100011703"/>
+          <ys name="一贯表现良好" code="0100011704"/>
+          <ys name="当庭自愿认罪" code="0100011705"/>
+          <ys name="情节轻微" code="0100011706"/>
+          <ys name="认罪态度较好" code="0100011707"/>
+          <ys name="无前科" code="0100011708"/>
+          <ys name="初犯" code="0100011709"/>
+          <ys name="偶犯" code="0100011710"/>
+          <ys name="邻里纠纷" code="0100011711"/>
+          <ys name="家庭矛盾" code="0100011712"/>
+          <ys name="预缴罚金" code="0100011713"/>
+          <ys name="取得被害方谅解" code="0100011714"/>
+          <ys name="被害人过错" code="0100011715"/>
+          <ys name="无劣迹" code="0100011717"/>
+          <ys name="退赃退赔" code="0100011718"/>
+          <node name="犯罪后积极抢救被害人"/>
+        </node>
+        <node name="其他影响量刑的情节">
+          <node name="被告人身份">
+            <ys name="被告人是国家工作人员" code="0100010004"/>
+            <ys name="被告人是在校生" code="0100010005"/>
+            <ys name="被告人是一般职业者" code="0100010006"/>
+          </node>
+          <node name="嫌疑人与被害人关系"/>
+        </node>
+      </node>
+      <node name="量刑指导意见"/>
+      <node name="相对不诉或定罪免刑"/>
+      <node name="数罪并罚"/>
+    </node>
+  </node>
+</AY>

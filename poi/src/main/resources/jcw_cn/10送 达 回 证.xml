@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <SJR nameCN="收件人" row="" col="" value="" oValue="" />
+            <SY nameCN="事由" row="" col="" value="" oValue="" />
+            <SDDW nameCN="送达单位" row="" col="" value="" oValue="" />
+            <SDDZ nameCN="送达地址" row="" col="" value="" oValue="" />
+            <QD nameCN="清单列表" start="" size="" >
+                <MC nameCN="文件名称" row="" col="" value="" oValue="" />
+                <SDSJ nameCN="收到时间" row="" col="" value="" oValue="" />
+                <SJR nameCN="收件人签名或盖章" row="" col="" value="" oValue="" />
+                <BNSDLY nameCN="不能送达理由" row="" col="" value="" oValue="" />
+            </QD>
+            <BZ nameCN="备注" row="" col="" value="" oValue="" />
+            <QFR nameCN="签发人" row="" col="" value="" oValue="" />
+            <SDR nameCN="送达人" row="" col="" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

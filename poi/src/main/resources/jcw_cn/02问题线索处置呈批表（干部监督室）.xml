@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XFFS nameCN="信访方式" row="" col="" value="" oValue="" />
+            <LY nameCN="来源" row="" col="" value="" oValue="" />
+            <HH nameCN="函号" row="" col="" value="" oValue="" />
+            <BFYR nameCN="被反映人" value="" oValue="" >
+                <XM nameCN="姓名" row="" col="" value="" oValue="" />
+                <DW nameCN="单位" row="" col="" value="" oValue="" />
+                <ZW nameCN="职务" row="" col="" value="" oValue="" />
+                <JB nameCN="级别" row="" col="" value="" oValue="" />
+            </BFYR>
+            <FYR nameCN="反映人" value="" oValue="" >
+                <DW nameCN="单位" row="" col="" value="" oValue="" />
+                <ZW nameCN="职务" row="" col="" value="" oValue="" />
+                <LXFS nameCN="联系方式" row="" col="" value="" oValue="" />
+            </FYR>
+            <ZYNR nameCN="主要内容" row="" col="" value="" oValue="" />
+            <GBJDSYJ nameCN="干部监督室意见" row="" col="" value="" oValue="" />
+            <XGFZRYJ nameCN="相关负责人意见" row="" col="" value="" oValue="" />
+            <ZYFZRYJ nameCN="主要负责人意见" row="" col="" value="" oValue="" />
+        </BGNR>
+            <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

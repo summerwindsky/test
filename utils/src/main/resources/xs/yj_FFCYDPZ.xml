@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="非法持有毒品罪">
+  <node name="刑事认定">
+    <node name="基本构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <node name="特殊自然人主体"/>
+          <node name="单位"/>
+        </node>
+        <node name="客观行为">
+          <ys name="一般违反规定持有行为" code="0100250101"/>
+        </node>
+        <node name="行为对象">
+          <ys name="毒品" code="0100250001"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <ys name="情节严重" code="0100250751">
+            <ys name="在戒毒场所、监管场所持有毒品" code="0100250752">
+              <node name="或"/>
+            </ys>
+            <ys name="利用、教唆未成年人持有毒品" code="0100250753"/>
+            <ys name="国家工作人员非法持有毒品" code="0100250754"/>
+          </ys>
+          <node name="数额"/>
+          <node name="数量">
+            <ys name="毒品数量大" code="0100250651">
+              <node name="或"/>
+              <ys name="鸦片一千克以上" code="0100250662"/>
+              <ys name="海洛因五十克以上" code="0100250663"/>
+              <ys name="甲基苯丙胺五十克以上" code="0100250664"/>
+              <ys name="其他毒品数量大" code="0100250665"/>
+            </ys>
+            <ys name="毒品数量较大" code="0100250652">
+              <ys name="鸦片二百克以上不满一千克" code="0100250658"/>
+              <ys name="海洛因十克以上不满五十克" code="0100250659"/>
+              <ys name="甲基苯丙胺十克以上不满五十克" code="0100250660"/>
+              <ys name="其他毒品数量较大" code="0100250661"/>
+            </ys>
+          </node>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="明知是毒品" code="0100251051">
+            <node name="或"/>
+          </ys>
+          <ys name="应当知道是毒品" code="0100251052"/>
+        </node>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄"/>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="非法持有毒品罪-共犯" code="0100251201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="不以牟利为目的代购仅限自用的毒品" code="0100251301"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节">
+        <ys name="毒品再犯" code="0100251602"/>
+      </node>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="利用教唆特定人员进行毒品犯罪" code="0100251601"/>
+      </node>
+      <node name="酌定从轻情节">
+        <ys name="被利用诱骗的特定人员参与毒品犯罪" code="0100251501">
+          <node name="或"/>
+        </ys>
+        <ys name="特情引诱" code="0100251502">
+          <ys name="犯意引诱" code="0100251503">
+            <node name="或"/>
+          </ys>
+          <ys name="双套引诱" code="0100251504"/>
+          <ys name="数量引诱" code="0100251505"/>
+        </ys>
+        <ys name="毒品未流入社会" code="0100251701"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

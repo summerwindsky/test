@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="故意毁坏财物罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node FOLDER="true" name="主体">
+          <node name="自然人"/>
+        </node>
+        <node name="客观行为">
+          <ys name="故意毁坏公私财物" code="0100330101"/>
+        </node>
+        <node name="行为对象">
+          <ys name="公私财物" code="0100330401"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="金额">
+            <ys name="数额较大" code="0100330651"/>
+            <ys name="数额巨大" code="0100330652"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100330751"/>
+            <ys name="其他特别严重情节" code="0100330752"/>
+          </node>
+        </node>
+        <node name="排除犯罪事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="破坏使用中的广播电视设施未危及公共安全，造成财物损失数额较大或有其他严重情节" code="0100331301"/>
+      <ys name="故意毁坏尚未投入使用的广播电视设施，造成财物损失数额较大或有其他严重情节" code="0100331302"/>
+      <ys name="故意破坏使用中的公用电信设施尚未危害公共安全，造成财物损失" code="0100331303"/>
+      <ys name="故意毁坏尚未投入使用的公用电信设施，造成财物损失" code="0100331304"/>
+      <ys name="盗窃行为未构成犯罪，但损毁财物构成犯罪" code="0100331305"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XM nameCN="姓名" row="" col="" value="" oValue="" />
+            <XB nameCN="性别" row="" col="" value="" oValue="" />
+            <CSNY nameCN="出生年月" row="" col="" value="" oValue="" />
+            <MZ nameCN="民族" row="" col="" value="" oValue="" />
+            <GZDW nameCN="工作单位" row="" col="" value="" oValue="" />
+            <ZZMM nameCN="政治面貌" row="" col="" value="" oValue="" />
+            <XRZW_DN nameCN="现任职务_党内" row="" col="" value="" oValue="" />
+            <XRZW_XZ nameCN="现任职务_行政" row="" col="" value="" oValue="" />
+            <XRZW_QT nameCN="现任职务_其他" row="" col="" value="" oValue="" />
+            <ZJ nameCN="职级" row="" col="" value="" oValue="" />
+            <SFDDB_HJ nameCN="是否党代表（何级）" row="" col="" value="" oValue="" />
+            <SFRDDB_HJ nameCN="是否人大代表（何级）" row="" col="" value="" oValue="" />
+            <SFZXWY_HJ nameCN="是否政协委员（何级）" row="" col="" value="" oValue="" />
+            <SFCZGL nameCN="是否垂直管理" row="" col="" value="" oValue="" />
+            <LAQX nameCN="留置期限" row="" col="" value="" oValue="" />
+            <KHRY nameCN="看护人员" row="" col="" value="" oValue="" />
+            <LZDD nameCN="留置地点" row="" col="" value="" oValue="" />
+            <LASJ nameCN="立案时间" row="" col="" value="" oValue="" />
+            <SJWT nameCN="涉及问题" row="" col="" value="" oValue="" />
+            <QJWYJ nameCN="区监委意见" row="" col="" value="" oValue="" />
+            <QWZYFZRYJ nameCN="区委主要负责人意见" row="" col="" value="" oValue="" />
+            <SJWSPYJ nameCN="市监委审批意见" row="" col="" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

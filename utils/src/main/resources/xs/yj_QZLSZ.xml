@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="敲诈勒索罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体"/>
+        <node name="客观行为">
+          <ys name="一般敲诈勒索" code="0100390101">
+            <node name="或"/>
+          </ys>
+          <node name="特殊敲诈勒索行为">
+            <ys name="利用信息网络敲诈勒索" code="0100390102"/>
+          </node>
+        </node>
+        <node name="行为对象">
+          <ys name="公私财物" code="0100390401"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数额">
+            <ys name="数额较大" code="0100390601"/>
+            <ys name="数额巨大" code="0100390602"/>
+            <ys name="数额特别巨大" code="0100390603"/>
+          </node>
+          <node name="情节">
+            <ys name="多次敲诈勒索" code="0100390751"/>
+            <ys name="其他严重情节" code="0100390752"/>
+            <ys name="其他特别严重情节" code="0100390753"/>
+          </node>
+        </node>
+        <node name="排除犯罪性事由">
+          <ys name="敲诈勒索近亲属的财物，获得谅解" code="0100390901"/>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="以非法占有为目的" code="0100391051"/>
+        </node>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="敲诈勒索罪-共犯" code="0100391201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="以借贷为名的敲诈勒索" code="0100391301">
+        <node name="或"/>
+      </ys>
+      <ys name="以发布、删除等方式处理网络信息为由敲诈勒索，数额较大" code="0100391302"/>
+      <ys name="多次以发布、删除等方式处理网络信息为由敲诈勒索" code="0100391303"/>
+      <ys name="冒充治安联防队员“抓赌”、“抓嫖”没收赌资或者罚款" code="0100391304"/>
+      <ys name="在信访活动中采用威胁、要挟手段敲诈勒索" code="0100391305"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重">
+        <ys name="冒充警察敲诈勒索" code="0100391801">
+          <node name="或"/>
+        </ys>
+        <ys name="在医疗机构敲诈勒索" code="0100391802"/>
+      </node>
+      <node name="酌定从轻">
+        <ys name="敲诈勒索近亲属的财物，获得谅解" code="0100390901">
+          <node name="或"/>
+        </ys>
+        <ys name="被害人对敲诈勒索的发生存在过错" code="0100391701"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑">
+      <ys name="敲诈勒索数额较大，行为人认罪、悔罪，退赃、退赔，具有法定从宽处罚情节" code="0100391901">
+        <node name="或"/>
+      </ys>
+      <ys name="敲诈勒索数额较大，行为人认罪、悔罪，退赃、退赔，没有参与分赃或者获赃较少且不是主犯" code="0100391902"/>
+      <ys name="敲诈勒索数额较大，行为人认罪、悔罪，退赃、退赔，被害人谅解" code="0100391903"/>
+      <ys name="敲诈勒索数额较大，行为人认罪、悔罪，退赃、退赔，其他情节轻微、危害不大" code="0100391904"/>
+    </node>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

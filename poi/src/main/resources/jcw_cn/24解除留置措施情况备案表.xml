@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XM nameCN="姓名" row="" col="" value="" oValue="" />
+            <GZDW nameCN="工作单位" row="" col="" value="" oValue="" />
+            <SFYQ nameCN="是否延期" row="" col="" value="" oValue="" />
+            <YQTS nameCN="延期天数" row="" col="" value="" oValue="" />
+            <YQSPQK nameCN="延期审批情况" row="" col="" value="" oValue="" />
+            <JCSJ nameCN="解除时间" row="" col="" value="" oValue="" />
+            <SYTS nameCN="使用天数" row="" col="" value="" oValue="" />
+            <YSSFJGSJ nameCN="移送司法机关时间" row="" col="" value="" oValue="" />
+            <QTCLQK nameCN="其他处理情况" row="" col="" value="" oValue="" />
+            <BSSP nameCN="报送审批" row="" col="" value="" oValue="" />
+            <BZ nameCN="备注" row="" col="" value="" oValue="" />
+        </BGNR>
+            <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

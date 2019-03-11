@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <XM nameCN="姓名" row="1" col="2" value="" oValue="" />
+            <XB nameCN="性别" row="1" col="4" value="" oValue="" />
+            <CSNY nameCN="出生年月" row="1" col="6" value="" oValue="" />
+            <GZDW nameCN="工作单位" row="2" col="2" value="" oValue="" />
+            <XRZW nameCN="现任职务" row="3" col="2" value="" oValue="" />
+            <ZJ nameCN="职级" row="3" col="4" value="" oValue="" />
+            <LZQSSJ nameCN="留置起始时间" row="4" col="2" value="" oValue="" />
+            <JCLYJSJ nameCN="解除理由及时间" row="5" col="2" value="" oValue="" />
+            <QJWYJ nameCN="区监委意见" row="6" col="2" value="" oValue="" />
+            <QWZYFZRYJ nameCN="区委主要负责人意见" row="7" col="2" value="" oValue="" />
+            <SJWSPYJ nameCN="市监委审批意见" row="8" col="2" value="" oValue="" />
+            <BZ nameCN="备注" row="9" col="2" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="容留他人吸毒罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体"/>
+        <node name="客观行为">
+          <ys name="一次容留多人吸毒" code="0100040101">
+            <node name="或"/>
+          </ys>
+          <ys name="二年内多次容留他人吸毒" code="0100040102"/>
+          <ys name="二年内曾因容留他人吸毒受过行政处罚" code="0100040103"/>
+          <ys name="容留未成年人吸毒" code="0100040104"/>
+          <ys name="以牟利为目的容留他人吸毒" code="0100040105"/>
+          <ys name="容留他人吸毒造成严重后果" code="0100040106"/>
+          <ys name="其他应当追究刑事责任的情形" code="0100040107"/>
+        </node>
+        <node name="行为对象">
+          <ys name="毒品" code="0100040401"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度"/>
+        <node name="排除犯罪事由">
+          <ys name="容留近亲属吸毒，情节显著轻微危害不大" code="0100040901"/>
+        </node>
+      </node>
+      <node name="有责性"/>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节">
+        <ys name="毒品再犯" code="0100041602"/>
+      </node>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="利用教唆特定人员进行毒品犯罪" code="0100041601"/>
+      </node>
+      <node name="酌定从轻情节">
+        <ys name="被利用诱骗的特定人员参与毒品犯罪" code="0100041501"/>
+        <ys name="容留近亲属吸毒需追究刑事责任" code="0100041502"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

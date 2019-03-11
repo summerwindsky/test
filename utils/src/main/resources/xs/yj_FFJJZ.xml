@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="非法拘禁罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="一般自然人主体"/>
+          <ys name="国家机关工作人员" code="0100480001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="非法拘禁" code="0100480101"/>
+          <ys name="以其他非法方法剥夺他人自由" code="0100480102"/>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数量"/>
+          <node name="金额"/>
+          <node name="情节"/>
+          <node name="后果">
+            <ys name="非法拘禁致人重伤" code="0100480701">
+              <ys name="致一人重伤" code="0100480702"/>
+              <ys name="致二人重伤" code="0100480703"/>
+              <ys name="致三人以上重伤" code="0100480704"/>
+            </ys>
+            <ys name="非法拘禁致人死亡" code="0100480705">
+              <ys name="致一人死亡" code="0100480706"/>
+              <ys name="致二人死亡" code="0100480707"/>
+              <ys name="致三人以上死亡" code="0100480708"/>
+            </ys>
+          </node>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="非法拘禁罪-共犯" code="0100481201"/>
+      </node>
+    </node>
+    <node name="以本罪论处">
+      <ys name="为索债非法扣押拘禁" code="0100481301"/>
+      <ys name="为索取法律不予保护之债非法扣押拘禁" code="0100481302"/>
+      <ys name="收买被拐卖的妇女儿童并剥夺限制其人身自由" code="0100481303"/>
+      <ys name="以不准离开工作场所等方式非法限制医务人员人身自由" code="0100481304"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="相对不诉或定罪免刑"/>
+    <node name="法定情节">
+      <node name="法定从重">
+        <ys name="非法拘禁具有殴打侮辱情节" code="0100481601"/>
+        <ys name="国家机关工作人员利用职权非法扣押拘禁" code="0100481602"/>
+      </node>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

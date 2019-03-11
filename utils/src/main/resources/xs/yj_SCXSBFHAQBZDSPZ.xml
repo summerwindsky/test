@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="生产、销售不符合安全标准的食品罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <ys name="生产、销售不符合安全标准的食品罪-单位" code="0100490001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="生产行为" code="0100490101">
+            <node name="或"/>
+          </ys>
+          <ys name="销售行为" code="0100490102"/>
+        </node>
+        <node name="行为对象">
+          <ys name="不符合食品安全标准的食品" code="0100490401"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="后果">
+            <ys name="足以造成严重食物中毒事故或其他严重食源性疾患" code="0100490701">
+              <node name="或"/>
+            </ys>
+            <ys name="对人体健康造成严重危害" code="0100490702"/>
+            <ys name="后果特别严重" code="0100490703"/>
+          </node>
+          <node name="情节">
+            <ys name="其他严重情节" code="0100490751"/>
+          </node>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="生产、销售不符合安全标准的食品罪-共犯" code="0100491201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="在食品加工、销售、运输、贮存等过程中，违反食品安全标准，超限量或者超范围滥用食品添加剂" code="0100491301">
+        <node name="或"/>
+      </ys>
+      <ys name="在食用农产品种植、养殖、销售、运输、贮存等过程中，违反食品安全标准，超限量或者超范围滥用添加剂、农药、兽药等" code="0100491302"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="相对不诉或定罪免刑"/>
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重">
+        <ys name="国家机关工作人员参与生产、销售伪劣商品犯罪" code="0100491801"/>
+      </node>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

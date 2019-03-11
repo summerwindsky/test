@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="强迫卖淫罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="旅馆业、饮食服务业、文化娱乐业、出租汽车业等单位的人员" code="0100440001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="强迫他人卖淫" code="0100440101"/>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数量"/>
+          <node name="金额"/>
+          <node name="情节">
+            <ys name="情节严重" code="0100440751"/>
+          </node>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面">
+          <ys name="明知对方是幼女" code="0100441051"/>
+        </node>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="旅馆业、饮食服务业、文化娱乐业、出租汽车业等单位的人员，利用本单位的条件，强迫他人卖淫" code="0100441301"/>
+      <ys name="强迫幼女卖淫" code="0100441302"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重">
+        <ys name="旅馆业、饮食服务业、文化娱乐业、出租汽车业等单位的主要负责人，强迫他人卖淫" code="0100441601"/>
+        <ys name="强迫未成年人卖淫" code="0100441602"/>
+      </node>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重">
+        <ys name="对未成年人负有特殊职责的人员强迫未成年人卖淫" code="0100441801"/>
+        <ys name="与未成年人有共同家庭生活关系的人员强迫未成年人卖淫" code="0100441802"/>
+        <ys name="国家工作人员强迫未成年人卖淫" code="0100441803"/>
+      </node>
+      <node name="酌定从轻"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

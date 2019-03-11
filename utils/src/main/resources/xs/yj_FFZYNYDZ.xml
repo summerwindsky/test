@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="非法占用农用地罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="非法占用农用地罪-单位" code="0100540001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="违反土地管理法规" code="0100540101"/>
+          <ys name="非法占用农用地" code="0100540102">
+            <ys name="未经批准或者采取欺骗手段骗取批准占用农用地" code="0100540103"/>
+            <ys name="超过批准数量占用农用地" code="0100540104"/>
+          </ys>
+          <ys name="改变被占用土地用途" code="0100540105">
+            <ys name="在非法占用的林地上实施建窑、建坟、建房、挖沙、采石、采矿、取土、种植农作物、堆放或排泄废弃物等行为或进行其他非林业生产、建设" code="0100540106"/>
+            <ys name="占用耕地实施建窑、建坟、建房、挖砂、采石、采矿、取土等行为" code="0100540107"/>
+            <ys name="违反土地利用总体规划擅自将农用地改为建设用地" code="0100540108"/>
+          </ys>
+        </node>
+        <node name="行为对象">
+          <ys name="农用地" code="0100540401">
+            <ys name="草原" code="0100540402"/>
+          </ys>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="数量">
+            <ys name="数量较大" code="0100540651"/>
+          </node>
+          <node name="后果">
+            <ys name="造成农用地大量毁坏" code="0100540701"/>
+          </node>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="拒不归还非法批准、使用的土地" code="0100541301"/>
+      <ys name="违反草原法等土地管理法规，非法占用草原，改变被占用草原用途，数量较大，造成草原大量毁坏" code="0100541302"/>
+      <ys name="退耕还林者擅自复耕" code="0100541303"/>
+      <ys name="退耕还林者林粮间作" code="0100541304"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻">
+        <ys name="恢复土地原状" code="0100541701"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

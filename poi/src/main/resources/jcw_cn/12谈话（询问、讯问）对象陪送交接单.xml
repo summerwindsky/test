@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <THDX nameCN="谈话对象" value="" oValue="">
+                <XM nameCN="姓名" row="" col="" value="" oValue="" />
+                <DW nameCN="单位" row="" col="" value="" oValue="" />
+                <ZW nameCN="职务" row="" col="" value="" oValue="" />
+                <SFZH nameCN="身份证号" row="" col="" value="" oValue="" />
+            </THDX>
+            <THSJ_DD nameCN="谈话到达时间" row="" col="" value="" oValue="" />
+            <THSJ_LK nameCN="谈话离开时间" row="" col="" value="" oValue="" />
+            <THDD nameCN="谈话地点" row="" col="" value="" oValue="" />
+            <PSRY nameCN="陪送人员" value="" oValue="">
+                <XM nameCN="姓名" row="" col="" value="" oValue="" />
+                <DW nameCN="单位" row="" col="" value="" oValue="" />
+                <ZW nameCN="职务" row="" col="" value="" oValue="" />
+                <SFZH nameCN="身份证号" row="" col="" value="" oValue="" />
+            </PSRY>
+            <PSXX nameCN="陪送信息" row="" col="" value="" oValue="" />
+            <GZRYQM nameCN="工作人员签名" row="" col="" value="" oValue="" />
+            <BZ nameCN="备注" row="" col="" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="滥伐林木罪">
+  <node name="刑事认定">
+    <node name="基本构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <node name="特殊自然人主体"/>
+          <ys name="滥伐林木罪-单位" code="0100220001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="违反森林法的规定" code="0100220101">
+            <node name="且"/>
+          </ys>
+          <ys name="滥伐森林或者其他林木" code="0100220102"/>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="情节"/>
+          <node name="数额"/>
+          <node name="数量">
+            <ys name="滥伐数量较大" code="0100220651">
+              <node name="或"/>
+            </ys>
+            <ys name="滥伐数量巨大" code="0100220652"/>
+            <ys name="一年内多次滥伐少量林木未经处罚" code="0100220751"/>
+          </node>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由">
+          <ys name="采伐自留地零星林木" code="0100220901">
+            <node name="或"/>
+          </ys>
+          <ys name="采伐房前屋后零星林木" code="0100220902"/>
+        </node>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄"/>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="擅自砍伐有权属争议的林木" code="0100221301"/>
+      <ys name="无证采伐林木" code="0100220103"/>
+      <ys name="超范围采伐林木" code="0100220104"/>
+      <ys name="超伐他人林木" code="0100220105"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节">
+        <ys name="滥伐国家级自然保护区内的森林或者其他林木" code="0100221601"/>
+      </node>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节"/>
+      <node name="酌定从轻情节">
+        <ys name="补植复绿" code="0100221701"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

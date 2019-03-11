@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue="" />
+        <BGNR>
+            <BSCR nameCN="被审查人">
+                <XM nameCN="姓名" row="1" col="2" value="" oValue="" />
+                <DW nameCN="单位" row="1" col="4" value="" oValue="" />
+                <ZW nameCN="职务" row="1" col="6" value="" oValue="" />
+            </BSCR>
+            <LAJG nameCN="立案机关" row="2" col="2" value="" oValue="" />
+            <LAXZ nameCN="立案性质" row="2" col="4" value="" oValue="" />
+            <LASJ nameCN="立案时间" row="3" col="2" value="" oValue="" />
+            <CBSJ nameCN="呈报时间" row="3" col="4" value="" oValue="" />
+            <LARDZYSSYJ nameCN="立案认定的主要事实及依据" row="4" col="2" value="" oValue="" />
+            <XALY nameCN="销案理由" row="5" col="2" value="" oValue="" />
+            <CBSYJ nameCN="承办室意见" row="5" col="2" value="" oValue="" />
+            <XGFZRYJ nameCN="相关负责人意见" row="6" col="2" value="" oValue="" />
+            <ZYFZRYJ nameCN="主要负责人意见" row="7" col="2" value="" oValue="" />
+            <BZ nameCN="备注" row="8" col="2" value="" oValue="" />
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue="" />
+    </QW>
+</writ>

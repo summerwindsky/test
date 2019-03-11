@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="非法制造、买卖、运输、邮寄、储存枪支、弹药、爆炸物罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人"/>
+          <ys name="非法制造、买卖、运输、邮寄、储存枪支、弹药、爆炸物罪-单位" code="0100320001"/>
+        </node>
+        <node name="客观行为">
+          <ys name="非法制造枪支、弹药、爆炸物" code="0100320101"/>
+          <ys name="非法买卖枪支、弹药、爆炸物" code="0100320102"/>
+          <ys name="非法运输枪支、弹药、爆炸物" code="0100320103"/>
+          <ys name="非法邮寄枪支、弹药、爆炸物" code="0100320104"/>
+          <ys name="非法储存枪支、弹药、爆炸物" code="0100320105"/>
+        </node>
+        <node name="行为对象">
+          <ys name="枪支" code="0100320401">
+            <ys name="具有杀伤力的仿真枪" code="0100320402"/>
+            <ys name="彩弹枪" code="0100320403"/>
+          </ys>
+          <ys name="弹药" code="0100320404">
+            <ys name="空包弹" code="0100320405"/>
+          </ys>
+          <ys name="爆炸物" code="0100320406">
+            <ys name="民用爆炸物品" code="0100320407"/>
+          </ys>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <ys name="情节严重" code="0100320751"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力"/>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="非法制造、买卖、运输、邮寄、储存枪支、弹药、爆炸物罪-共犯" code="0100321201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="在生产、储存、运输、使用民用爆炸物品中发生重大事故，造成严重后果或者后果特别严重" code="0100321301"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="相对不诉或定罪免刑">
+      <ys name="因正常生产、生活需要，以及因从事合法的生产经营活动而非法制造、买卖、运输、邮寄、储存爆炸物，数量达到标准，没有造成严重社会危害，并确有悔改表现，情节轻微" code="0100321901"/>
+    </node>
+    <node name="法定情节">
+      <node name="法定从重"/>
+      <node name="法定从轻"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重"/>
+      <node name="酌定从轻">
+        <ys name="因正常生产、生活需要，以及因从事合法的生产经营活动而非法制造、买卖、运输、邮寄、储存爆炸物，数量达到标准，没有造成严重社会危害，并确有悔改表现" code="0100321701"/>
+      </node>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

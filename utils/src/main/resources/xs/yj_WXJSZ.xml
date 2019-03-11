@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="危险驾驶罪">
+  <node name="刑事认定">
+    <node name="基本的构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <node name="自然人">
+            <ys name="机动车驾驶人" code="0100110001"/>
+            <ys name="机动车所有人" code="0100110002"/>
+            <ys name="机动车管理人" code="0100110003"/>
+          </node>
+          <node name="单位"/>
+          <node name="特殊自然人主体"/>
+        </node>
+        <node name="客观行为">
+          <ys name="追逐竞驶情节恶劣" code="0100110101"/>
+          <ys name="血液酒精含量达到80毫克/100毫升以上驾驶机动车" code="0100110102"/>
+          <ys name="从事校车业务严重超载或超速" code="0100110103"/>
+          <ys name="从事旅客运输严重超载或超速" code="0100110104"/>
+          <ys name="运输危险化学品危及公共安全" code="0100110105"/>
+        </node>
+        <node name="工具">
+          <ys name="机动车" code="0100110576"/>
+        </node>
+        <node name="行为对象"/>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="情节"/>
+          <node name="数额"/>
+          <node name="数量"/>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄"/>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正的构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪"/>
+    </node>
+    <node name="以本罪论处"/>
+    <node name="不以本罪论处"/>
+    <node name="从一重罪"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="醉驾造成交通事故负全部或主要责任" code="0100111601"/>
+        <ys name="醉驾造成交通事故后逃逸" code="0100111602"/>
+        <ys name="血液酒精含量达到200毫克/100毫升以上驾驶机动车" code="0100111603"/>
+        <ys name="在高速公路、城市快速路上醉驾" code="0100111604"/>
+        <ys name="醉酒驾驶载有乘客的营运机动车" code="0100111605"/>
+        <ys name="醉驾且严重超员" code="0100111606"/>
+        <ys name="醉驾且严重超载" code="0100111607"/>
+        <ys name="醉驾且严重超速" code="0100111608"/>
+        <ys name="无驾驶资格醉驾" code="0100111609"/>
+        <ys name="使用伪造或变造的机动车牌证醉驾" code="0100111610"/>
+        <ys name="醉驾且有其他严重违反道路交通安全法的行为" code="0100111611"/>
+        <ys name="醉驾逃避公安机关依法检查" code="0100111612"/>
+        <ys name="醉驾拒绝公安机关依法检查" code="0100111613"/>
+        <ys name="醉驾阻碍公安机关依法检查" code="0100111614"/>
+        <ys name="曾因酒后驾驶机动车受过行政处罚" code="0100111615"/>
+        <ys name="曾因酒后驾驶机动车受过刑事追究" code="0100111616"/>
+        <node name="其他"/>
+      </node>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="数罪并罚"/>
+    <node name="量刑指导意见"/>
+  </node>
+</AY>

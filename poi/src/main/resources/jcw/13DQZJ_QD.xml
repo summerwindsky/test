@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ>
+    <QW>
+        <WS nameCN="文首" row="" col="" value="" oValue=""/>
+        <BGNR>
+            <QD nameCN="清单列表" start="2" size="11">
+                <JD>
+                    <BH nameCN="编号" row="" col="1" value="" oValue=""/>
+                    <MC nameCN="名称" notNull="true" row="" col="2" value="" oValue=""/>
+                    <SL nameCN="数量" row="" col="3" value="" oValue=""/>
+                    <TZ nameCN="特征" row="" col="4" value="" oValue=""/>
+                    <BZ nameCN="备注" row="" col="5" value="" oValue=""/>
+                </JD>
+            </QD>
+            <QTXX nameCN="提取信息" row="13" col="1" value="" oValue=""/>
+        </BGNR>
+        <WW nameCN="文尾" row="" col="" value="" oValue=""/>
+    </QW>
+</writ>

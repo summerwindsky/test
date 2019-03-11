@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="受贿罪">
+  <node name="刑事认定">
+    <node name="基本构成要件">
+      <node name="该当性">
+        <node name="主体">
+          <ys name="国家工作人员" code="0100270001">
+            <ys name="国家机关中从事公务的人员" code="0100270002">
+              <node name="国家机关">
+                <node name="且"/>
+              </node>
+              <node name="从事公务的人员"/>
+            </ys>
+            <ys name="视为国家机关工作人员" code="0100270003"/>
+          </ys>
+          <node name="以国家工作人员论">
+            <ys name="国有公司、企业、事业单位、人民团体中从事公务的人员" code="0100270004">
+              <node name="国有公司、企业、事业单位、人民团体">
+                <node name="且"/>
+              </node>
+              <node name="从事公务的人员"/>
+              <node name="或"/>
+            </ys>
+            <ys name="委派从事公务的人员" code="0100270005">
+              <node name="国家机关、国有公司、企业、事业单位">
+                <node name="且"/>
+              </node>
+              <node name="委派"/>
+              <node name="非国有公司、企业、事业单位、社会团体中"/>
+            </ys>
+            <ys name="其他依照法律从事公务的人员" code="0100270006"/>
+          </node>
+          <ys name="从事公务" code="0100270007"/>
+        </node>
+        <node name="客观行为">
+          <node name="国家工作人员利用职务上的便利，索取他人财物的，或者非法收受他人财物，为他人谋取利益的">
+            <node name="国家工作人员"/>
+            <ys name="利用职务便利" code="0100270101"/>
+            <node name="情形">
+              <ys name="索取他人财物" code="0100270102">
+                <node name="或"/>
+              </ys>
+              <node name="非法收受他人财物，为他人谋取利益">
+                <ys name="非法收受他人财物" code="0100270103">
+                  <node name="且"/>
+                </ys>
+                <ys name="为他人谋取利益" code="0100270104"/>
+              </node>
+            </node>
+            <node name="收受他人财物的方式">
+              <node name="新型受贿行为">
+                <ys name="交易型受贿" code="0100270105">
+                  <node name="或"/>
+                </ys>
+                <ys name="干股型受贿" code="0100270106"/>
+                <ys name="合作型受贿" code="0100270107"/>
+                <ys name="委托理财型受贿" code="0100270108"/>
+                <ys name="赌博型受贿" code="0100270109"/>
+                <ys name="特定关系人挂名取酬型受贿" code="0100270110"/>
+                <ys name="通过特定关系人受贿" code="0100270111"/>
+                <ys name="财产权属未变更型受贿" code="0100270112"/>
+                <ys name="离职国家工作人员事前约定受贿" code="0100270113"/>
+                <node name="或"/>
+              </node>
+              <ys name="一般受贿行为" code="0100270114"/>
+            </node>
+            <node name="或"/>
+          </node>
+          <ys name="国家工作人员在经济往来中，违反国家规定，收受各种名义的回扣、手续费，归个人所有" code="0100270119">
+            <node name="国家工作人员">
+              <node name="且"/>
+            </node>
+            <node name="在经济往来中">
+              <node name="表述">
+                <ys name="经济往来" code="0100270115"/>
+              </node>
+              <node name="认定">
+                <node name="行为人代表本单位与外单位或个人从事经济交往（平等民事主体）"/>
+              </node>
+            </node>
+            <node name="违反国家规定，收受各种名义的回扣、手续费，归个人所有">
+              <ys name="违反国家规定" code="0100270116">
+                <node name="且"/>
+              </ys>
+              <ys name="收受各种名义的回扣、手续费" code="0100270117"/>
+              <ys name="归个人所有" code="0100270118"/>
+            </node>
+          </ys>
+        </node>
+        <node name="行为对象">
+          <ys name="财物" code="0100270401">
+            <node name="货币">
+              <node name="或"/>
+            </node>
+            <node name="物品"/>
+          </ys>
+          <ys name="财产性利益" code="0100270402"/>
+        </node>
+        <node name="结果"/>
+        <node name="因果关系"/>
+        <node name="时间和地点"/>
+        <node name="工具"/>
+      </node>
+      <node name="违法性">
+        <node name="违法性程度">
+          <node name="情节">
+            <ys name="其他较重情节" code="0100270612">
+              <ys name="受贿数额一万元以上不满三万元" code="0100270606">
+                <node name="且"/>
+              </ys>
+              <node name="情形">
+                <ys name="因贪污、受贿、挪用公款受过党纪、行政处分" code="0100270751">
+                  <node name="或"/>
+                </ys>
+                <ys name="因故意犯罪受过刑事追究" code="0100270752"/>
+                <ys name="赃款赃物用于非法活动" code="0100270753"/>
+                <ys name="拒不交待，无法追缴" code="0100270754"/>
+                <ys name="拒不配合，无法追缴" code="0100270755"/>
+                <ys name="因受贿造成恶劣影响" code="0100270756"/>
+                <ys name="因受贿造成其他严重后果" code="0100270757"/>
+                <ys name="多次索贿" code="0100270758"/>
+                <ys name="谋取不正当利益，致使公共财产、国家和人民利益遭受损失" code="0100270759"/>
+                <ys name="为他人谋取职务提拔、调整" code="0100270760"/>
+              </node>
+            </ys>
+            <ys name="受贿数额三万元以上不满十万元" code="0100270607"/>
+            <ys name="其他严重情节" code="0100270613">
+              <ys name="受贿数额十万元以上不满二十万元" code="0100270608">
+                <node name="且"/>
+              </ys>
+              <node name="情形">
+                <ys name="因贪污、受贿、挪用公款受过党纪、行政处分" code="0100270751">
+                  <node name="或"/>
+                </ys>
+                <ys name="因故意犯罪受过刑事追究" code="0100270752"/>
+                <ys name="赃款赃物用于非法活动" code="0100270753"/>
+                <ys name="拒不交待，无法追缴" code="0100270754"/>
+                <ys name="拒不配合，无法追缴" code="0100270755"/>
+                <ys name="因受贿造成恶劣影响" code="0100270756"/>
+                <ys name="因受贿造成其他严重后果" code="0100270757"/>
+                <ys name="多次索贿" code="0100270758"/>
+                <ys name="谋取不正当利益，致使公共财产、国家和人民利益遭受损失" code="0100270759"/>
+                <ys name="为他人谋取职务提拔、调整" code="0100270760"/>
+              </node>
+            </ys>
+            <ys name="受贿数额二十万元以上不满一百五十万元" code="0100270609"/>
+            <ys name="其他特别严重情节" code="0100270614">
+              <ys name="受贿数额一百五十万元以上不满三百万元" code="0100270610">
+                <node name="且"/>
+              </ys>
+              <node name="情形">
+                <ys name="因贪污、受贿、挪用公款受过党纪、行政处分" code="0100270751">
+                  <node name="或"/>
+                </ys>
+                <ys name="因故意犯罪受过刑事追究" code="0100270752"/>
+                <ys name="赃款赃物用于非法活动" code="0100270753"/>
+                <ys name="拒不交待，无法追缴" code="0100270754"/>
+                <ys name="拒不配合，无法追缴" code="0100270755"/>
+                <ys name="因受贿造成恶劣影响" code="0100270756"/>
+                <ys name="因受贿造成其他严重后果" code="0100270757"/>
+                <ys name="多次索贿" code="0100270758"/>
+                <ys name="谋取不正当利益，致使公共财产、国家和人民利益遭受损失" code="0100270759"/>
+                <ys name="为他人谋取职务提拔、调整" code="0100270760"/>
+              </node>
+            </ys>
+            <ys name="受贿数额三百万元以上" code="0100270611"/>
+          </node>
+          <node name="数额">
+            <ys name="数额较大" code="0100270601">
+              <node name="三万元以上不满二十万元"/>
+              <node name="或"/>
+            </ys>
+            <ys name="数额巨大" code="0100270602">
+              <node name="二十万元以上不满三百万元"/>
+            </ys>
+            <ys name="数额特别巨大" code="0100270603">
+              <node name="三百万元以上"/>
+            </ys>
+          </node>
+          <ys name="数额特别巨大，并使国家和人民利益遭受特别重大损失" code="0100270615"/>
+          <node name="数量"/>
+          <node name="后果"/>
+        </node>
+        <node name="排除犯罪性事由"/>
+      </node>
+      <node name="有责性">
+        <node name="主观方面"/>
+        <node name="刑事责任能力">
+          <node name="刑事责任年龄"/>
+          <node name="精神状态"/>
+          <node name="特殊生理"/>
+        </node>
+      </node>
+    </node>
+    <node name="修正构成要件">
+      <node name="犯罪形态"/>
+      <node name="共同犯罪">
+        <ys name="受贿罪-共犯" code="0100271201"/>
+      </node>
+    </node>
+    <node name="从一重处"/>
+    <node name="以本罪论处">
+      <ys name="国家工作人员在国家出资企业改制过程中利用职务上的便利为请托人谋取利益，事先约定在其不再具有国家工作人员身份后收受请托人财物，或在身份变化前后连续收受请托人财物" code="0100271301"/>
+    </node>
+    <node name="不以本罪论处"/>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节">
+        <ys name="索贿" code="0100271601"/>
+      </node>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="受贿犯罪行为与安全事故发生存在关联性" code="0100271602"/>
+      </node>
+      <node name="酌定从轻情节"/>
+    </node>
+    <node name="量刑指导意见"/>
+    <node name="相对不诉或定罪免刑"/>
+    <node name="数罪并罚"/>
+  </node>
+</AY>

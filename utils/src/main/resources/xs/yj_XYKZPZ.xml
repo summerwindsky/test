@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AY name="信用卡诈骗罪">
+  <node name="刑事认定">
+    <node name="信用卡诈骗罪">
+      <node name="使用伪造的信用卡，或者使用以虚假身份骗领的信用卡">
+        <node name="该当性">
+          <node name="主体">
+            <node name="自然人"/>
+          </node>
+          <node name="客观行为">
+            <ys name="使用伪造的信用卡" code="0100080101">
+              <node name="或"/>
+            </ys>
+            <ys name="使用以虚假的身份证明骗领的信用卡" code="0100080102"/>
+          </node>
+          <node name="行为对象"/>
+          <node name="结果"/>
+        </node>
+        <node name="违法性">
+          <node name="违法性程度">
+            <node name="数额">
+              <ys name="数额较大" code="0100080601">
+                <node name="或"/>
+              </ys>
+              <ys name="数额巨大" code="0100080602"/>
+              <ys name="数额特别巨大" code="0100080603"/>
+            </node>
+            <node name="情节">
+              <ys name="其他严重情节" code="0100080751">
+                <node name="或"/>
+              </ys>
+              <ys name="其他特别严重情节" code="0100080752"/>
+            </node>
+          </node>
+        </node>
+        <node name="有责性">
+          <node name="主观方面">
+            <ys name="以非法占有为目的" code="0100081051"/>
+          </node>
+          <node name="刑事责任能力"/>
+        </node>
+      </node>
+      <node name="使用作废的信用卡">
+        <node name="该当性">
+          <node name="主体">
+            <node name="自然人"/>
+          </node>
+          <node name="客观行为">
+            <ys name="使用作废的信用卡" code="0100080103"/>
+          </node>
+          <node name="行为对象"/>
+          <node name="结果"/>
+        </node>
+        <node name="违法性">
+          <node name="违法性程度">
+            <node name="数额">
+              <ys name="数额较大" code="0100080601">
+                <node name="或"/>
+              </ys>
+              <ys name="数额巨大" code="0100080602"/>
+              <ys name="数额特别巨大" code="0100080603"/>
+            </node>
+            <node name="情节">
+              <ys name="其他严重情节" code="0100080751">
+                <node name="或"/>
+              </ys>
+              <ys name="其他特别严重情节" code="0100080752"/>
+            </node>
+          </node>
+        </node>
+        <node name="有责性">
+          <node name="主观方面">
+            <ys name="以非法占有为目的" code="0100081051"/>
+          </node>
+          <node name="刑事责任能力"/>
+        </node>
+      </node>
+      <node name="冒用他人信用卡">
+        <node name="该当性">
+          <node name="主体">
+            <node name="自然人"/>
+          </node>
+          <node name="客观行为">
+            <node name="要素:冒用他人信用卡#0100080104">
+              <ys name="拾得他人信用卡并使用" code="0100080105">
+                <node name="或"/>
+              </ys>
+              <ys name="骗取他人信用卡并使用" code="0100080106"/>
+              <ys name="窃取、收买、骗取或者以其他非法方式获取他人信用卡信息资料，并通过互联网、通讯终端等使用" code="0100080107"/>
+              <ys name="其他冒用他人信用卡的情形" code="0100080108"/>
+            </node>
+          </node>
+          <node name="行为对象"/>
+          <node name="结果"/>
+        </node>
+        <node name="违法性">
+          <node name="违法性程度">
+            <node name="数额">
+              <ys name="数额较大" code="0100080601">
+                <node name="或"/>
+              </ys>
+              <ys name="数额巨大" code="0100080602"/>
+              <ys name="数额特别巨大" code="0100080603"/>
+              <node name="或"/>
+            </node>
+            <node name="情节">
+              <ys name="其他严重情节" code="0100080751">
+                <node name="或"/>
+              </ys>
+              <ys name="其他特别严重情节" code="0100080752"/>
+            </node>
+          </node>
+        </node>
+        <node name="有责性">
+          <node name="主观方面">
+            <ys name="以非法占有为目的" code="0100081051"/>
+          </node>
+          <node name="刑事责任能力"/>
+        </node>
+      </node>
+      <node name="恶意透支">
+        <node name="刑事认定">
+          <node name="该当性">
+            <node name="主体">
+              <node name="自然人"/>
+            </node>
+            <node name="客观行为">
+              <ys name="恶意透支" code="0100080109"/>
+            </node>
+            <node name="行为对象"/>
+            <node name="结果"/>
+          </node>
+          <node name="违法性">
+            <node name="违法性程度">
+              <node name="数额">
+                <ys name="数额较大" code="0100080601">
+                  <node name="或"/>
+                </ys>
+                <ys name="数额巨大" code="0100080602"/>
+                <ys name="数额特别巨大" code="0100080603"/>
+              </node>
+              <node name="情节">
+                <ys name="其他严重情节" code="0100080751">
+                  <node name="或"/>
+                </ys>
+                <ys name="其他特别严重情节" code="0100080752"/>
+              </node>
+            </node>
+            <node name="排除犯罪事由 ">
+              <ys name="恶意透支数额较大，在公安机关立案前已偿还全部透支款息，情节显著轻微" code="0100080901"/>
+            </node>
+          </node>
+          <node name="有责性">
+            <node name="主观方面">
+              <ys name="以非法占有为目的" code="0100081051">
+                <ys name="以非法占有为目的-明知没有还款能力而大量透支，无法归还" code="0100081052"/>
+                <ys name="以非法占有为目的-肆意挥霍透支的资金，无法归还" code="0100081053"/>
+                <ys name="以非法占有为目的-透支后逃匿、改变联系方式，逃避银行催收" code="0100081054"/>
+                <ys name="以非法占有为目的-抽逃、转移资金，隐匿财产，逃避还款" code="0100081055"/>
+                <ys name="以非法占有为目的-使用透支的资金进行违法犯罪活动" code="0100081056"/>
+                <ys name="以非法占有为目的-其他非法占有资金，拒不归还的行为" code="0100081057"/>
+              </ys>
+            </node>
+            <node name="刑事责任能力"/>
+          </node>
+        </node>
+        <node name="刑罚裁量">
+          <node name="法定情节">
+            <node name="法定从重情节"/>
+            <node name="法定从轻情节"/>
+          </node>
+          <node name="酌定情节">
+            <node name="酌定从重情节"/>
+            <node name="酌定从轻情节">
+              <ys name="恶意透支应当追究刑事责任，但在公安机关立案后人民法院判决宣告前已偿还全部透支款息" code="0100081501"/>
+            </node>
+          </node>
+          <node name="相对不诉或定罪免刑">
+            <ys name="恶意透支应当追究刑事责任，但在公安机关立案后人民法院判决宣告前已偿还全部透支款息的，情节轻微" code="0100081901"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="刑罚裁量">
+    <node name="法定情节">
+      <node name="法定从重情节"/>
+      <node name="法定从轻情节"/>
+    </node>
+    <node name="酌定情节">
+      <node name="酌定从重情节">
+        <ys name="银行工作人员实施信用卡诈骗" code="0100081601"/>
+      </node>
+      <node name="酌定从轻情节"/>
+    </node>
+  </node>
+</AY>
