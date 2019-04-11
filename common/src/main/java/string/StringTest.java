@@ -195,6 +195,9 @@ public class StringTest {
         String s = "jkdjfdj\n";
         System.out.println(s.replaceAll("\n", ""));
 
+        s = "djfdkfjkdk0)";
+        System.out.println(s.replaceAll("\\)", ""));
+
     }
 
     @Test
@@ -207,6 +210,12 @@ public class StringTest {
         String s1 = DigestUtils.md5Hex(line1);
         System.out.println(s);
         System.out.println(s1);
+    }
+
+    @Test
+    public void testMd5() {
+        String s = DigestUtils.md5Hex("殷实##湖北斯洋律师事务所");
+        System.out.println(s);
     }
 
 }

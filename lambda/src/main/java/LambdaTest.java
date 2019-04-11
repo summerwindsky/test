@@ -1,4 +1,3 @@
-import com.google.common.collect.Comparators;
 import org.junit.Test;
 
 import java.util.*;
@@ -60,6 +59,7 @@ public class LambdaTest {
     @Test
     public void testLib() {
         Person[] persons = {new Person("zs",1),new Person("ls",2),new Person("zs",1)};
+//        Person[] persons = {};
         Pattern pattern = Pattern.compile("\\s+");
         Arrays.stream(persons)
                 .map(p -> p.getName())
