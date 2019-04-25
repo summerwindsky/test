@@ -36,7 +36,8 @@ public class ElasticUtil {
     private ElasticReader esReader = null;
 
     private ElasticUtil() {
-        ElasticClient esClient = ElasticClient.getInstance(Constant.es_cluster_name, "elastic:changeme",
+//        ElasticClient esClient = ElasticClient.getInstance(Constant.es_cluster_name, "elastic:changeme",
+        ElasticClient esClient = ElasticClient.getInstance(Constant.es_cluster_name, "elastic:6789@jkl",
             Constant.es_cluster_ip, Constant.es_cluster_port);
         esWriter = new ElasticWriter(esClient);
         esReader = new ElasticReader(esClient);
@@ -73,6 +74,7 @@ public class ElasticUtil {
         SearchSourceBuilder searchBuilder = new SearchSourceBuilder();
         searchBuilder.query(query);
         String abc[] = {};
+        searchBuilder.size(100);
         searchBuilder.fetchSource(rFields, abc);
         return searchBuilder;
     }
@@ -97,6 +99,16 @@ public class ElasticUtil {
 
     public static SearchResponse getResponse(String index, String type, QueryBuilder query, String[] rFields) {
         return getResponse(index, type, query, rFields, null);
+    }
+
+    public static SearchResponse getResponseByTerm(String index, String type,String termName, String termValue, String[] rFields) {
+        SearchResponse response = null;
+        TermQueryBuilder queryBuilder = QueryBuilders.termQuery(termName, termValue);
+        SearchSourceBuilder searchBuilder = getSearchSourceBuilder(queryBuilder, rFields);
+        SearchRequest searchRequest = getElasticReader().getSearchRequest(index, type);
+        searchRequest.source(searchBuilder);
+        response = getElasticReader().search(searchRequest);
+        return response;
     }
 
     public static SearchResponse getResponse(String index, String type, QueryBuilder query, String[] rFields,

@@ -133,6 +133,6 @@ public class DateUtil {
     public static void main(String[] args) throws ParseException {
         System.out.println(DateUtil.getNowDate());
 
-        System.out.println(sf.format(new Date(1554739929611L)));
+        System.out.println(sf.format(new Date(1555064904503L)));
     }
 }
