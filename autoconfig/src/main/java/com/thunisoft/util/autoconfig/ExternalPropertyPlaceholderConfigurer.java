@@ -5,7 +5,7 @@ import model.PropertyDTO;
 import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
-import util.http.HttpService;
+import neo4j.util.http.HttpService;
 
 import java.io.IOException;
 import java.util.Map;

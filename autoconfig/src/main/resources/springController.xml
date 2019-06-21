@@ -22,7 +22,7 @@
 
 
     <!--spring配置来源，控制类-->
-    <bean id="propertyConfigurer" class="com.thunisoft.util.autoconfig.ExternalPropertyPlaceholderConfigurer">
+    <bean id="propertyConfigurer" class="com.thunisoft.neo4j.util.autoconfig.ExternalPropertyPlaceholderConfigurer">
         <property name="appInfo" ref="appInfo"/>
         <property name="locations">
             <list>
@@ -58,7 +58,7 @@
     </bean>
 
     <!--&lt;!&ndash;Hadoop集群hdfs-site.xml及coer-site.xml文件参数替换，控制类&ndash;&gt;-->
-    <!--<bean id="httpFactory" class="util.http.HttpFactory"/>-->
+    <!--<bean id="httpFactory" class="neo4j.util.http.HttpFactory"/>-->
 
     <!--motan-->
     <motan:referer id="remoteService" interface="motan.FooService" directUrl="${port}"/>

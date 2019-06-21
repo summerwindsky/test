@@ -3,7 +3,7 @@ package work.test;
 import model.PropertyDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import util.http.HttpService;
+import neo4j.util.http.HttpService;
 
 import javax.annotation.PostConstruct;
 import java.util.Map;

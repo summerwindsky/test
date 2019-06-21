@@ -14,7 +14,7 @@
     <context:component-scan base-package="com"/>
 
     <!--spring配置来源，控制类-->
-    <bean id="propertyConfigurer" class="com.thunisoft.util.autoconfig.ExternalPropertyPlaceholderConfigurer">
+    <bean id="propertyConfigurer" class="com.thunisoft.neo4j.util.autoconfig.ExternalPropertyPlaceholderConfigurer">
         <!--<property name="nullValue" value="[null]" />-->
         <property name="appName" value="$app.name"/>
         <property name="appVersion" value="$app.version"/>
