@@ -1,7 +1,6 @@
 package guava;
 
 import com.google.common.base.*;
-import com.google.common.collect.MoreCollectors;
 import com.google.common.collect.Ordering;
 import org.junit.Test;
 
@@ -62,7 +61,11 @@ public class GuavaTest {
         try {
             throw new Exception();
         } catch (Throwable t) {
-            Throwables.propagateIfPossible(t, Exception.class);
+            try {
+                Throwables.propagateIfPossible(t, Exception.class);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             Throwables.propagate(t);
         }
 

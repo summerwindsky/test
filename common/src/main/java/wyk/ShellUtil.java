@@ -30,7 +30,7 @@ public class ShellUtil {
 
 	/**
 	 * 远程登录主机
-	 * 
+	 *
 	 * @return
 	 */
 	public Boolean login(String ip, String userName, String userPwd) {
@@ -47,7 +47,7 @@ public class ShellUtil {
 
 	/**
 	 * 远程执行shell或命令
-	 * 
+	 *
 	 * @param cmd
 	 * @return
 	 */
@@ -75,7 +75,7 @@ public class ShellUtil {
 
 	/**
 	 * 处理运行结果
-	 * 
+	 *
 	 * @param in
 	 * @param charset
 	 * @return
@@ -134,7 +134,7 @@ public class ShellUtil {
 	/**
 	 * 调用Shell命令:
 	 * 如果把命令放到一个String[]中时，必须把命令中每个部分作为一个元素存在String[]中，或者是把命令按照空格符分割得到的String[]
-	 * 
+	 *
 	 * @param cmd
 	 * @return 状态码和返回值
 	 */
