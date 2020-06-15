@@ -12,7 +12,7 @@
     <artifactId>mybatis</artifactId>
 
     <properties>
-        <spring.version>4.1.6.RELEASE</spring.version>
+        <spring.version>5.2.7.RELEASE</spring.version>
     </properties>
 
     <build>
