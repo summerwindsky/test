@@ -18,7 +18,7 @@
         <motan.version>0.3.0</motan.version>
         <!--TODO hbase版本-->
         <project.hbase.version>1.2.5</project.hbase.version>
-        <http-client-version>4.4</http-client-version>
+        <http-client-version>4.5.13</http-client-version>
     </properties>
 
     <dependencies>
